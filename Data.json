@@ -1,0 +1,3836 @@
+[
+    {
+        "title": "Countdown mobile app",
+        "description": "You will practice collecting user input, sending scheduled push notifications, sharing data between screens, and working with a database.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Break time reminder mobile app",
+        "description": "You\u2019ll create a simple, useful app to remind users to take breaks by customizing the time and length of their breaks. Get regular break reminders through push notifications.  Depending on your experience, this project may take 8 to 16 hours.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mood logging mobile app",
+        "description": "You\u2019ll create a mobile app to log the user\u2019s mood, what they\u2019re doing, and who they\u2019re with at regular intervals throughout the day. The app will help users learn more about their typical and fluctuating moods.  Depending on your experience, this project may take 12 to 20 hours.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "To-do list mobile app",
+        "description": "You will create a to-do list application by using your preferred mobile application development framework. People are finding it harder and harder to remember and manage daily tasks in this fast-paced world. By creating a to-do list app, users can create and manage their daily tasks more easily.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mortgage calculator mobile app",
+        "description": "Taking out loans and calculating monthly EMI can be confusing and stressful. However, with the help of a mortgage calculator, anyone can easily plan their mortgages out. You will build a mortgage calculator in this project!",
+        "skills_required": [
+            "Flutter",
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Joke telling bot mobile app",
+        "description": "Whether it's smartphones, cars, or speakers, voice assistants are becoming more and more integral to our everyday lives. Not only so, voice assistants are gaining traction in companies to help streamline operations like Customer Service. In this project, you'll build a full-fledged Joke Telling Robot Mobile App using Text to Speech APIs, which can be applied to both web apps and mobile apps.",
+        "skills_required": [
+            "Flutter",
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random color palette generator mobile app",
+        "description": "In today's world, design is everything. Choosing the right color palette for your mobile app will help evoke different emotions you'd like your audience to experience. You'll build a full-fledged random color palette generator mobile app using Colormind API, which can be used for both web apps and mobile apps.",
+        "skills_required": [
+            "Flutter",
+            "Kotlin",
+            "JavaScript",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Daily sleep tracker mobile app",
+        "description": "Irregular sleeping patterns are a common problem. This mobile app will fulfill the user's needs in tracking their sleeping patterns, including duration and timings. This app will track three parameters: sleep time, wake up time, and sleep duration. Users can add, edit, or remove any sleep entries.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Tinder style swipe mobile app",
+        "description": "You\u2019ll create a mobile app with a swiping mechanism similar to dating apps like Tinder. Users can swipe left (dislike) or swipe right (like) on images downloaded from the Unsplash API. Through this project, you will learn both the programmatic approach and Storyboard approach to build mobile applications. You will also learn to achieve modularity and reusability with your code.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Polling mobile app",
+        "description": "You will create a mobile application using your preferred technology. Users can authenticate, upload photos from their phone, view other peoples' photos, and vote on each photo.  The estimated time for this project is around 25 hours.",
+        "skills_required": [
+            "Flutter",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Weight tracking mobile app",
+        "description": "You'll be creating a mobile app for users to track and monitor their weight. By building an offline supported weight tracking app, you will learn how to build an offline supported mobile app with React Native, how to structure data for a real-life entity, and how to perform CRUD operations for your data.",
+        "skills_required": [
+            "Expo",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Wallpaper mobile app",
+        "description": "You'll build a wallpaper app for mobile devices that consumes the Unsplash API! Depending on your experience, this project might take between 15 to 20 hours.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Restaurants social mobile app",
+        "description": "You'll build a mobile app to consume the Google Maps API and use Firebase, and build a social restaurants app for mobile devices.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Events mobile app",
+        "description": "You'll build a mobile app to consume the Eventbrite API that lets users discover & sign up for events! Depending on your experience, this project might take between 30 to 40 hours.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Discord bot: QR code generator",
+        "description": "QR codes have become ubiquitous in many countries in the last few years. With the help of bots, QR codes can be generated easily. Through this project, you'll learn how to use Discord bots to turn command arguments into outputs like QR code, without having to look for a QR code generation website.",
+        "skills_required": [
+            "Discord",
+            "Node.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Slack bot: PageSpeed Insights report",
+        "description": "Let's build a Slack bot that can easily keep track of your deployed websites' page speed performance within your Slack workspace.",
+        "skills_required": [
+            "JavaScript",
+            "Node.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "RSS feed reader in terminal",
+        "description": "Let's build a RSS feed reader! Most news websites, blogs, podcasts, maintain a RSS feed which gives real-time content updates. You'll build a tool for fetching and converting the feed with a given RSS feed URL.",
+        "skills_required": [
+            "Node.js",
+            "Python",
+            "Ruby"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Web scraper to get news article content",
+        "description": "We'll build a simple web scraper that returns the content of a news article when given a specific URL. Some examples of products which use similar technologies include price-tracking websites and SEO audit tools.",
+        "skills_required": [
+            "Python"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Background job system",
+        "description": "The background job system is a common component in the modern workflow. It can run jobs in an async fashion, which reduces the latency for clients.",
+        "skills_required": [
+            "Node.js",
+            "PHP",
+            "Java",
+            "Python",
+            "Ruby",
+            "Golang"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Slack bot: drink water reminder",
+        "description": "As many of us Slack on a daily basis for work, school, or personal use, we want to use Slack to remind us to regularly drink water throughout the day.",
+        "skills_required": [
+            "PHP",
+            "Ruby"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Alpaca image generator website",
+        "description": "At DevProjects, we love alpacas! It's our mascot, and we'd love for you to have your own alpaca profile photo. With that said, this project is not just about alpacas. Allowing users to generate and download avatars are common in many interactive websites. In this project, you'll learn how to create an image generator website that allows users to generate, combine, and download images.  This project should take you approximately 8 hours to complete.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random number generator web app",
+        "description": "There are various use cases for a random number generator. You could do a random dice roll or get a random quote. Most of the time, the implementation is relatively straightforward and similar to this project\u2019s approach. In this project, we will create a dice roll simulation.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Link shortener website",
+        "description": "In this project, you'll learn how to build a website that shortens URLs. Optimizing the length of your website's URLs is useful on space-sensitive forums, helps websites rank better in search results, and are also easier for users to type out.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Build a custom google maps theme",
+        "description": "In this project, you\u2019ll be creating and styling a Google Map with a theme and custom marker images. You\u2019ll use Google Cloud Platform to create the map, and also use the Google Maps JavaScript API to load the map on a website. I\u2019ve created a Super Mario themed map here but you are welcome to use any style you\u2019d like!",
+        "skills_required": [
+            "JavaScript",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Simple web contact form",
+        "description": "A form often needs to be used to pass data to various other applications. In many cases, it could be a database, in others, it may be to give a specific answer or a quote.  Regardless of how the information may need to be used, it is an important skill to be able to move data to new pages so it can be manipulated for use in further code. For this project, you will create a HTML web form.",
+        "skills_required": [
+            "PHP",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Weather forecast website",
+        "description": "Make a web app for users to see the current weather and the weather forecast for the next 7 days.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal website SEO setup",
+        "description": "Most developers will create a personal website to showcase our experience and projects. In this project, you'll build a simple personal profile page hosted under your own domain.",
+        "skills_required": [
+            "JavaScript",
+            "Google Analytics",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Create a fast and secure blog using JAMStack",
+        "description": "With performance being at the forefront of developers minds, you\u2019ll be creating a site using JAMStack, which means your website will be super fast and will have better security, among other benefits.  You\u2019ll be using a Static Site Generator (SSG) to create a personal blog, including featured articles on the homepage, an articles page with pagination to older content, and individual blog posts, all without a database.",
+        "skills_required": [
+            "JavaScript",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Speed typing game",
+        "description": "Speed typing test websites are useful for people who want to learn to type faster, type without looking at their keyboards, practice typing specific sets of entries (think numeric tests, address test, emoji test?), or get used to a new keyboard.  This project will take 20 to 40 hours, depending on your coding experience and how much searching you need to do.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Daily sleep tracker web app",
+        "description": "Irregular sleeping patterns are a common problem. This web app will fulfill the user's needs in tracking their sleeping patterns, including duration and timings. You will create a web app to track three parameters: sleep time, wake up time, and sleep duration. Users can add, edit, or remove any sleep entries.",
+        "skills_required": [
+            "JavaScript",
+            "Java",
+            "Node.js",
+            "MySQL",
+            "React",
+            "HTML/CSS",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Medicine dose tracker web app",
+        "description": "You\u2019ll build a web app with a simple UI where a user can sign up for an account. Once logged in, the user is presented with a simple form to add medicine name, dosages, and frequency. After adding those details, the user can view, edit, or delete this information.  The rough estimate for this project is 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Django",
+            "MySQL",
+            "Python",
+            "HTML/CSS",
+            "PostgreSQL"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Image search gallery",
+        "description": "You\u2019ll create a simple image search application that allows the user to search for images using Unsplash\u2019s image API.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal YouTube web player",
+        "description": "You\u2019ll create your own personal simple Youtube browser application that allows you to search for and play videos.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal website with randomly generated design",
+        "description": "A personal website is the #1 most common first project for budding front-end developers. Build a simple personal website with a twist, by including a randomly generated stylesheet that updates every hour.",
+        "skills_required": [
+            "JavaScript",
+            "Node.js",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "RSS feed reader in terminal",
+        "description": "Let's build a RSS feed reader! Most news websites, blogs, podcasts, maintain a RSS feed which gives real-time content updates. You'll build a tool for fetching and converting the feed with a given RSS feed URL.",
+        "skills_required": [
+            "Node.js",
+            "Python",
+            "Ruby"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "RSS feed reader website",
+        "description": "Let's build a RSS feed reader! Most news websites, blogs, podcasts, maintain a RSS feed which gives real-time content updates. You'll build a tool for fetching and converting the feed with a given RSS feed URL.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Road trip planner",
+        "description": "As travelling restrictions are beginning to be lifted globally, maybe it\u2019s finally time for you to plan that roadtrip! In this project, you\u2019ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.  There are many ways you can enhance this project and share it with friends and family.  Depending on how much extra challenge you take on, this project should take around 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Java",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Background job system",
+        "description": "The background job system is a common component in the modern workflow. It can run jobs in an async fashion, which reduces the latency for clients.",
+        "skills_required": [
+            "Node.js",
+            "PHP",
+            "Java",
+            "Python",
+            "Ruby",
+            "Golang"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Slack bot: drink water reminder",
+        "description": "As many of us Slack on a daily basis for work, school, or personal use, we want to use Slack to remind us to regularly drink water throughout the day.",
+        "skills_required": [
+            "PHP",
+            "Ruby"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Countdown mobile app",
+        "description": "You will practice collecting user input, sending scheduled push notifications, sharing data between screens, and working with a database.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Break time reminder mobile app",
+        "description": "You\u2019ll create a simple, useful app to remind users to take breaks by customizing the time and length of their breaks. Get regular break reminders through push notifications.  Depending on your experience, this project may take 8 to 16 hours.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mood logging mobile app",
+        "description": "You\u2019ll create a mobile app to log the user\u2019s mood, what they\u2019re doing, and who they\u2019re with at regular intervals throughout the day. The app will help users learn more about their typical and fluctuating moods.  Depending on your experience, this project may take 12 to 20 hours.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "To-do list mobile app",
+        "description": "You will create a to-do list application by using your preferred mobile application development framework. People are finding it harder and harder to remember and manage daily tasks in this fast-paced world. By creating a to-do list app, users can create and manage their daily tasks more easily.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Temperature converter mobile app",
+        "description": "You'll create a simple app to convert temperatures from Celsius to Fahrenheit, and vice-versa. This project should be implemented as a mobile app.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mortgage calculator mobile app",
+        "description": "Taking out loans and calculating monthly EMI can be confusing and stressful. However, with the help of a mortgage calculator, anyone can easily plan their mortgages out. You will build a mortgage calculator in this project!",
+        "skills_required": [
+            "Flutter",
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Joke telling bot mobile app",
+        "description": "Whether it's smartphones, cars, or speakers, voice assistants are becoming more and more integral to our everyday lives. Not only so, voice assistants are gaining traction in companies to help streamline operations like Customer Service. In this project, you'll build a full-fledged Joke Telling Robot Mobile App using Text to Speech APIs, which can be applied to both web apps and mobile apps.",
+        "skills_required": [
+            "Flutter",
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Road trip planner",
+        "description": "As travelling restrictions are beginning to be lifted globally, maybe it\u2019s finally time for you to plan that roadtrip! In this project, you\u2019ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.  There are many ways you can enhance this project and share it with friends and family.  Depending on how much extra challenge you take on, this project should take around 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Java",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Daily sleep tracker mobile app",
+        "description": "Irregular sleeping patterns are a common problem. This mobile app will fulfill the user's needs in tracking their sleeping patterns, including duration and timings. This app will track three parameters: sleep time, wake up time, and sleep duration. Users can add, edit, or remove any sleep entries.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Daily sleep tracker web app",
+        "description": "Irregular sleeping patterns are a common problem. This web app will fulfill the user's needs in tracking their sleeping patterns, including duration and timings. You will create a web app to track three parameters: sleep time, wake up time, and sleep duration. Users can add, edit, or remove any sleep entries.",
+        "skills_required": [
+            "JavaScript",
+            "Java",
+            "Node.js",
+            "MySQL",
+            "React",
+            "HTML/CSS",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Tinder style swipe mobile app",
+        "description": "You\u2019ll create a mobile app with a swiping mechanism similar to dating apps like Tinder. Users can swipe left (dislike) or swipe right (like) on images downloaded from the Unsplash API. Through this project, you will learn both the programmatic approach and Storyboard approach to build mobile applications. You will also learn to achieve modularity and reusability with your code.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Polling mobile app",
+        "description": "You will create a mobile application using your preferred technology. Users can authenticate, upload photos from their phone, view other peoples' photos, and vote on each photo.  The estimated time for this project is around 25 hours.",
+        "skills_required": [
+            "Flutter",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Food journal mobile app",
+        "description": "You\u2019ll create a mobile app, using your preferred technology for mobile development, to capture photos and information about what you eat.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Background job system",
+        "description": "The background job system is a common component in the modern workflow. It can run jobs in an async fashion, which reduces the latency for clients.",
+        "skills_required": [
+            "Node.js",
+            "PHP",
+            "Java",
+            "Python",
+            "Ruby",
+            "Golang"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random number generator web app",
+        "description": "There are various use cases for a random number generator. You could do a random dice roll or get a random quote. Most of the time, the implementation is relatively straightforward and similar to this project\u2019s approach. In this project, we will create a dice roll simulation.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Simple web contact form",
+        "description": "A form often needs to be used to pass data to various other applications. In many cases, it could be a database, in others, it may be to give a specific answer or a quote.  Regardless of how the information may need to be used, it is an important skill to be able to move data to new pages so it can be manipulated for use in further code. For this project, you will create a HTML web form.",
+        "skills_required": [
+            "PHP",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "RSS feed reader website",
+        "description": "Let's build a RSS feed reader! Most news websites, blogs, podcasts, maintain a RSS feed which gives real-time content updates. You'll build a tool for fetching and converting the feed with a given RSS feed URL.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Appointment management system",
+        "description": "An appointment management system is a software used by companies and service providers to streamline their service appointments.  By using the system, potential customers can know and choose their preferred appointment times according to the companies and service providers' available time slots. This project does not include a B2C marketplace-like interface for customers to browse different service providers.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby on Rails",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Road trip planner",
+        "description": "As travelling restrictions are beginning to be lifted globally, maybe it\u2019s finally time for you to plan that roadtrip! In this project, you\u2019ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.  There are many ways you can enhance this project and share it with friends and family.  Depending on how much extra challenge you take on, this project should take around 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Java",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Medicine dose tracker web app",
+        "description": "You\u2019ll build a web app with a simple UI where a user can sign up for an account. Once logged in, the user is presented with a simple form to add medicine name, dosages, and frequency. After adding those details, the user can view, edit, or delete this information.  The rough estimate for this project is 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Django",
+            "MySQL",
+            "Python",
+            "HTML/CSS",
+            "PostgreSQL"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Background job system",
+        "description": "The background job system is a common component in the modern workflow. It can run jobs in an async fashion, which reduces the latency for clients.",
+        "skills_required": [
+            "Node.js",
+            "PHP",
+            "Java",
+            "Python",
+            "Ruby",
+            "Golang"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Slack bot: drink water reminder",
+        "description": "As many of us Slack on a daily basis for work, school, or personal use, we want to use Slack to remind us to regularly drink water throughout the day.",
+        "skills_required": [
+            "PHP",
+            "Ruby"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Favorite stocks watcher",
+        "description": "You will create an application that can monitor and share stock portfolios efficiently with friends. The app should include the ability to monitor investments in order to help investors decide the next steps. The project should take about 25-30 hours to complete.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Django",
+            "Python",
+            "React"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Downtime monitoring with reporting and alerts",
+        "description": "You\u2019ll build an automated downtime monitoring application with alerts and uptime reports. You can use this app to monitor your own websites.",
+        "skills_required": [
+            "MongoDB",
+            "PHP",
+            "Node.js",
+            "Express.js",
+            "Vue.js"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Countdown mobile app",
+        "description": "You will practice collecting user input, sending scheduled push notifications, sharing data between screens, and working with a database.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Break time reminder mobile app",
+        "description": "You\u2019ll create a simple, useful app to remind users to take breaks by customizing the time and length of their breaks. Get regular break reminders through push notifications.  Depending on your experience, this project may take 8 to 16 hours.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mood logging mobile app",
+        "description": "You\u2019ll create a mobile app to log the user\u2019s mood, what they\u2019re doing, and who they\u2019re with at regular intervals throughout the day. The app will help users learn more about their typical and fluctuating moods.  Depending on your experience, this project may take 12 to 20 hours.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "To-do list mobile app",
+        "description": "You will create a to-do list application by using your preferred mobile application development framework. People are finding it harder and harder to remember and manage daily tasks in this fast-paced world. By creating a to-do list app, users can create and manage their daily tasks more easily.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mortgage calculator mobile app",
+        "description": "Taking out loans and calculating monthly EMI can be confusing and stressful. However, with the help of a mortgage calculator, anyone can easily plan their mortgages out. You will build a mortgage calculator in this project!",
+        "skills_required": [
+            "Flutter",
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Joke telling bot mobile app",
+        "description": "Whether it's smartphones, cars, or speakers, voice assistants are becoming more and more integral to our everyday lives. Not only so, voice assistants are gaining traction in companies to help streamline operations like Customer Service. In this project, you'll build a full-fledged Joke Telling Robot Mobile App using Text to Speech APIs, which can be applied to both web apps and mobile apps.",
+        "skills_required": [
+            "Flutter",
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random color palette generator mobile app",
+        "description": "In today's world, design is everything. Choosing the right color palette for your mobile app will help evoke different emotions you'd like your audience to experience. You'll build a full-fledged random color palette generator mobile app using Colormind API, which can be used for both web apps and mobile apps.",
+        "skills_required": [
+            "Flutter",
+            "Kotlin",
+            "JavaScript",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Daily sleep tracker mobile app",
+        "description": "Irregular sleeping patterns are a common problem. This mobile app will fulfill the user's needs in tracking their sleeping patterns, including duration and timings. This app will track three parameters: sleep time, wake up time, and sleep duration. Users can add, edit, or remove any sleep entries.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Tinder style swipe mobile app",
+        "description": "You\u2019ll create a mobile app with a swiping mechanism similar to dating apps like Tinder. Users can swipe left (dislike) or swipe right (like) on images downloaded from the Unsplash API. Through this project, you will learn both the programmatic approach and Storyboard approach to build mobile applications. You will also learn to achieve modularity and reusability with your code.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Polling mobile app",
+        "description": "You will create a mobile application using your preferred technology. Users can authenticate, upload photos from their phone, view other peoples' photos, and vote on each photo.  The estimated time for this project is around 25 hours.",
+        "skills_required": [
+            "Flutter",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Wallpaper mobile app",
+        "description": "You'll build a wallpaper app for mobile devices that consumes the Unsplash API! Depending on your experience, this project might take between 15 to 20 hours.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "News mobile app",
+        "description": "You'll build a mobile app to consume the News API and display a list of news articles. Clicking one of the news articles will open the news article within the app.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Restaurants social mobile app",
+        "description": "You'll build a mobile app to consume the Google Maps API and use Firebase, and build a social restaurants app for mobile devices.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Events mobile app",
+        "description": "You'll build a mobile app to consume the Eventbrite API that lets users discover & sign up for events! Depending on your experience, this project might take between 30 to 40 hours.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Cryptocurrency price listing mobile app",
+        "description": "You'll create a simple app to consume the CoinLore API, and display a list of cryptocurrencies and their current price in the mobile app.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Temperature converter mobile app",
+        "description": "You'll create a simple app to convert temperatures from Celsius to Fahrenheit, and vice-versa. This project should be implemented as a mobile app.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Food journal mobile app",
+        "description": "You\u2019ll create a mobile app, using your preferred technology for mobile development, to capture photos and information about what you eat.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mobile app to generate local walking routes",
+        "description": "This app will take your current location and generate a random walking route of the specified length - measured in either distance or time.",
+        "skills_required": [
+            "Swift"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Countdown mobile app",
+        "description": "You will practice collecting user input, sending scheduled push notifications, sharing data between screens, and working with a database.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Break time reminder mobile app",
+        "description": "You\u2019ll create a simple, useful app to remind users to take breaks by customizing the time and length of their breaks. Get regular break reminders through push notifications.  Depending on your experience, this project may take 8 to 16 hours.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mood logging mobile app",
+        "description": "You\u2019ll create a mobile app to log the user\u2019s mood, what they\u2019re doing, and who they\u2019re with at regular intervals throughout the day. The app will help users learn more about their typical and fluctuating moods.  Depending on your experience, this project may take 12 to 20 hours.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "To-do list mobile app",
+        "description": "You will create a to-do list application by using your preferred mobile application development framework. People are finding it harder and harder to remember and manage daily tasks in this fast-paced world. By creating a to-do list app, users can create and manage their daily tasks more easily.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mortgage calculator mobile app",
+        "description": "Taking out loans and calculating monthly EMI can be confusing and stressful. However, with the help of a mortgage calculator, anyone can easily plan their mortgages out. You will build a mortgage calculator in this project!",
+        "skills_required": [
+            "Flutter",
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Joke telling bot mobile app",
+        "description": "Whether it's smartphones, cars, or speakers, voice assistants are becoming more and more integral to our everyday lives. Not only so, voice assistants are gaining traction in companies to help streamline operations like Customer Service. In this project, you'll build a full-fledged Joke Telling Robot Mobile App using Text to Speech APIs, which can be applied to both web apps and mobile apps.",
+        "skills_required": [
+            "Flutter",
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random color palette generator mobile app",
+        "description": "In today's world, design is everything. Choosing the right color palette for your mobile app will help evoke different emotions you'd like your audience to experience. You'll build a full-fledged random color palette generator mobile app using Colormind API, which can be used for both web apps and mobile apps.",
+        "skills_required": [
+            "Flutter",
+            "Kotlin",
+            "JavaScript",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Daily sleep tracker mobile app",
+        "description": "Irregular sleeping patterns are a common problem. This mobile app will fulfill the user's needs in tracking their sleeping patterns, including duration and timings. This app will track three parameters: sleep time, wake up time, and sleep duration. Users can add, edit, or remove any sleep entries.",
+        "skills_required": [
+            "Kotlin",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Polling mobile app",
+        "description": "You will create a mobile application using your preferred technology. Users can authenticate, upload photos from their phone, view other peoples' photos, and vote on each photo.  The estimated time for this project is around 25 hours.",
+        "skills_required": [
+            "Flutter",
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Weight tracking mobile app",
+        "description": "You'll be creating a mobile app for users to track and monitor their weight. By building an offline supported weight tracking app, you will learn how to build an offline supported mobile app with React Native, how to structure data for a real-life entity, and how to perform CRUD operations for your data.",
+        "skills_required": [
+            "Expo",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Wallpaper mobile app",
+        "description": "You'll build a wallpaper app for mobile devices that consumes the Unsplash API! Depending on your experience, this project might take between 15 to 20 hours.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "News mobile app",
+        "description": "You'll build a mobile app to consume the News API and display a list of news articles. Clicking one of the news articles will open the news article within the app.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Restaurants social mobile app",
+        "description": "You'll build a mobile app to consume the Google Maps API and use Firebase, and build a social restaurants app for mobile devices.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Events mobile app",
+        "description": "You'll build a mobile app to consume the Eventbrite API that lets users discover & sign up for events! Depending on your experience, this project might take between 30 to 40 hours.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Cryptocurrency price listing mobile app",
+        "description": "You'll create a simple app to consume the CoinLore API, and display a list of cryptocurrencies and their current price in the mobile app.",
+        "skills_required": [
+            "Dart",
+            "Flutter",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Temperature converter mobile app",
+        "description": "You'll create a simple app to convert temperatures from Celsius to Fahrenheit, and vice-versa. This project should be implemented as a mobile app.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "My favorite YouTube videos mobile app",
+        "description": "A typical mobile app often contains essential features including screen navigation, pulling remote data with RESTful API, and authentication.",
+        "skills_required": [
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Food journal mobile app",
+        "description": "You\u2019ll create a mobile app, using your preferred technology for mobile development, to capture photos and information about what you eat.",
+        "skills_required": [
+            "Swift",
+            "Java",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Discord bot: QR code generator",
+        "description": "QR codes have become ubiquitous in many countries in the last few years. With the help of bots, QR codes can be generated easily. Through this project, you'll learn how to use Discord bots to turn command arguments into outputs like QR code, without having to look for a QR code generation website.",
+        "skills_required": [
+            "Discord",
+            "Node.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Build a screenshot pipeline",
+        "description": "Set up a CI/CD workflow which will produce a screenshot of your homepage and keep it updated as you keep changing the code.  This kind of always-up-to-date screenshot can be useful for your README or as the basis of marketing materials that include screenshots of your website.  You can even use these images to perform [visual regression testing](https://medium.com/loftbr/visual-regression-testing-eb74050f3366)!",
+        "skills_required": [
+            "Node.js",
+            "React"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random number generator web app",
+        "description": "There are various use cases for a random number generator. You could do a random dice roll or get a random quote. Most of the time, the implementation is relatively straightforward and similar to this project\u2019s approach. In this project, we will create a dice roll simulation.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Slack bot: PageSpeed Insights report",
+        "description": "Let's build a Slack bot that can easily keep track of your deployed websites' page speed performance within your Slack workspace.",
+        "skills_required": [
+            "JavaScript",
+            "Node.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "RSS feed reader in terminal",
+        "description": "Let's build a RSS feed reader! Most news websites, blogs, podcasts, maintain a RSS feed which gives real-time content updates. You'll build a tool for fetching and converting the feed with a given RSS feed URL.",
+        "skills_required": [
+            "Node.js",
+            "Python",
+            "Ruby"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "RSS feed reader website",
+        "description": "Let's build a RSS feed reader! Most news websites, blogs, podcasts, maintain a RSS feed which gives real-time content updates. You'll build a tool for fetching and converting the feed with a given RSS feed URL.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Appointment management system",
+        "description": "An appointment management system is a software used by companies and service providers to streamline their service appointments.  By using the system, potential customers can know and choose their preferred appointment times according to the companies and service providers' available time slots. This project does not include a B2C marketplace-like interface for customers to browse different service providers.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby on Rails",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Road trip planner",
+        "description": "As travelling restrictions are beginning to be lifted globally, maybe it\u2019s finally time for you to plan that roadtrip! In this project, you\u2019ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.  There are many ways you can enhance this project and share it with friends and family.  Depending on how much extra challenge you take on, this project should take around 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Java",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Daily sleep tracker web app",
+        "description": "Irregular sleeping patterns are a common problem. This web app will fulfill the user's needs in tracking their sleeping patterns, including duration and timings. You will create a web app to track three parameters: sleep time, wake up time, and sleep duration. Users can add, edit, or remove any sleep entries.",
+        "skills_required": [
+            "JavaScript",
+            "Java",
+            "Node.js",
+            "MySQL",
+            "React",
+            "HTML/CSS",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Your own personal CRM",
+        "description": "In this project, you\u2019ll build a CRM that is tailored to your needs. You can keep track of your freelance clients, professional contacts, or even gift ideas for your friends and family.",
+        "skills_required": [
+            "MongoDB",
+            "Node.js",
+            "Express.js",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal website with randomly generated design",
+        "description": "A personal website is the #1 most common first project for budding front-end developers. Build a simple personal website with a twist, by including a randomly generated stylesheet that updates every hour.",
+        "skills_required": [
+            "JavaScript",
+            "Node.js",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Invoicing and payment reminder mobile app",
+        "description": "This app can generate, send, and receive invoices, as well as send automated follow-up reminders about overdue payments.",
+        "skills_required": [
+            "MongoDB",
+            "Node.js",
+            "React",
+            "Express.js"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Online photo collage tool",
+        "description": "As many of us want to post photo collages in social media, it\u2019s useful to have an online tool to do simple image combinations without needing to open an image processing program.",
+        "skills_required": [
+            "Node.js",
+            "Python",
+            "React",
+            "Vue.js"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Downtime monitoring with reporting and alerts",
+        "description": "You\u2019ll build an automated downtime monitoring application with alerts and uptime reports. You can use this app to monitor your own websites.",
+        "skills_required": [
+            "MongoDB",
+            "PHP",
+            "Node.js",
+            "Express.js",
+            "Vue.js"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Background job system",
+        "description": "The background job system is a common component in the modern workflow. It can run jobs in an async fashion, which reduces the latency for clients.",
+        "skills_required": [
+            "Node.js",
+            "PHP",
+            "Java",
+            "Python",
+            "Ruby",
+            "Golang"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Alpaca image generator website",
+        "description": "At DevProjects, we love alpacas! It's our mascot, and we'd love for you to have your own alpaca profile photo. With that said, this project is not just about alpacas. Allowing users to generate and download avatars are common in many interactive websites. In this project, you'll learn how to create an image generator website that allows users to generate, combine, and download images.  This project should take you approximately 8 hours to complete.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random number generator web app",
+        "description": "There are various use cases for a random number generator. You could do a random dice roll or get a random quote. Most of the time, the implementation is relatively straightforward and similar to this project\u2019s approach. In this project, we will create a dice roll simulation.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Link shortener website",
+        "description": "In this project, you'll learn how to build a website that shortens URLs. Optimizing the length of your website's URLs is useful on space-sensitive forums, helps websites rank better in search results, and are also easier for users to type out.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Build a custom google maps theme",
+        "description": "In this project, you\u2019ll be creating and styling a Google Map with a theme and custom marker images. You\u2019ll use Google Cloud Platform to create the map, and also use the Google Maps JavaScript API to load the map on a website. I\u2019ve created a Super Mario themed map here but you are welcome to use any style you\u2019d like!",
+        "skills_required": [
+            "JavaScript",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mortgage calculator web app",
+        "description": "Taking out loans and calculating monthly EMI can be confusing and stressful. However, with the help of a mortgage calculator, anyone can easily plan their mortgages out. You will build a mortgage calculator in this project!",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Appointment management system",
+        "description": "An appointment management system is a software used by companies and service providers to streamline their service appointments.  By using the system, potential customers can know and choose their preferred appointment times according to the companies and service providers' available time slots. This project does not include a B2C marketplace-like interface for customers to browse different service providers.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby on Rails",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Joke telling bot web app",
+        "description": "Whether it's smartphones, cars, or speakers, voice assistants are becoming more and more integral to our everyday lives. Not only so, voice assistants are gaining traction in companies to help streamline operations like Customer Service. In this project, you'll build a full-fledged Joke telling robot web app using Web Speech APIs, which can be applied to both web apps and mobile apps.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random color palette generator mobile app",
+        "description": "In today's world, design is everything. Choosing the right color palette for your mobile app will help evoke different emotions you'd like your audience to experience. You'll build a full-fledged random color palette generator mobile app using Colormind API, which can be used for both web apps and mobile apps.",
+        "skills_required": [
+            "Flutter",
+            "Kotlin",
+            "JavaScript",
+            "Swift",
+            "React Native"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Road trip planner",
+        "description": "As travelling restrictions are beginning to be lifted globally, maybe it\u2019s finally time for you to plan that roadtrip! In this project, you\u2019ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.  There are many ways you can enhance this project and share it with friends and family.  Depending on how much extra challenge you take on, this project should take around 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Java",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random color palette generator web app",
+        "description": "In today's world, design is everything. Choosing the right color palette for a product or website will help evoke different emotions you'd like your audience to experience. You'll build a full-fledged random color palette generator web app using Colormind API, which can be used for both web apps and mobile apps.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Create a fast and secure blog using JAMStack",
+        "description": "With performance being at the forefront of developers minds, you\u2019ll be creating a site using JAMStack, which means your website will be super fast and will have better security, among other benefits.  You\u2019ll be using a Static Site Generator (SSG) to create a personal blog, including featured articles on the homepage, an articles page with pagination to older content, and individual blog posts, all without a database.",
+        "skills_required": [
+            "JavaScript",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Speed typing game",
+        "description": "Speed typing test websites are useful for people who want to learn to type faster, type without looking at their keyboards, practice typing specific sets of entries (think numeric tests, address test, emoji test?), or get used to a new keyboard.  This project will take 20 to 40 hours, depending on your coding experience and how much searching you need to do.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Daily sleep tracker web app",
+        "description": "Irregular sleeping patterns are a common problem. This web app will fulfill the user's needs in tracking their sleeping patterns, including duration and timings. You will create a web app to track three parameters: sleep time, wake up time, and sleep duration. Users can add, edit, or remove any sleep entries.",
+        "skills_required": [
+            "JavaScript",
+            "Java",
+            "Node.js",
+            "MySQL",
+            "React",
+            "HTML/CSS",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Medicine dose tracker web app",
+        "description": "You\u2019ll build a web app with a simple UI where a user can sign up for an account. Once logged in, the user is presented with a simple form to add medicine name, dosages, and frequency. After adding those details, the user can view, edit, or delete this information.  The rough estimate for this project is 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Django",
+            "MySQL",
+            "Python",
+            "HTML/CSS",
+            "PostgreSQL"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Weather forecast website",
+        "description": "Make a web app for users to see the current weather and the weather forecast for the next 7 days.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Slack bot: PageSpeed Insights report",
+        "description": "Let's build a Slack bot that can easily keep track of your deployed websites' page speed performance within your Slack workspace.",
+        "skills_required": [
+            "JavaScript",
+            "Node.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "RSS feed reader website",
+        "description": "Let's build a RSS feed reader! Most news websites, blogs, podcasts, maintain a RSS feed which gives real-time content updates. You'll build a tool for fetching and converting the feed with a given RSS feed URL.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal website SEO setup",
+        "description": "Most developers will create a personal website to showcase our experience and projects. In this project, you'll build a simple personal profile page hosted under your own domain.",
+        "skills_required": [
+            "JavaScript",
+            "Google Analytics",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Temperature converter website",
+        "description": "You'll create a simple app to convert temperatures from Celsius to Fahrenheit, and vice-versa. This project should be implemented as a web page.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Vocabulary memorization website",
+        "description": "Nowadays, everyone is learning languages to advance careers or broaden horizons. Although there are many online resources to learn from, lack of vocabulary is often a pain point for many learners.  We'll create an application for foreign language learners to manage their vocabulary. You can start with a simple form for inserting words - one for your native language and another for the foreign language.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Image search gallery",
+        "description": "You\u2019ll create a simple image search application that allows the user to search for images using Unsplash\u2019s image API.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal YouTube web player",
+        "description": "You\u2019ll create your own personal simple Youtube browser application that allows you to search for and play videos.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Minimalist web analytics tool",
+        "description": "You\u2019ll build a simplified web analytics tool with the ability to track views, timestamps, anonymized user agents, and the referrer, and to display this data.",
+        "skills_required": [
+            "JavaScript"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal website with randomly generated design",
+        "description": "A personal website is the #1 most common first project for budding front-end developers. Build a simple personal website with a twist, by including a randomly generated stylesheet that updates every hour.",
+        "skills_required": [
+            "JavaScript",
+            "Node.js",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Globe with rotating animation and country label",
+        "description": "We would like to create a globe on a web page that paints out all continents. Users can select a country to rotate the globe to center on that country.",
+        "skills_required": [
+            "D3.js",
+            "JavaScript",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Favorite stocks watcher",
+        "description": "You will create an application that can monitor and share stock portfolios efficiently with friends. The app should include the ability to monitor investments in order to help investors decide the next steps. The project should take about 25-30 hours to complete.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Django",
+            "Python",
+            "React"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Alpaca image generator website",
+        "description": "At DevProjects, we love alpacas! It's our mascot, and we'd love for you to have your own alpaca profile photo. With that said, this project is not just about alpacas. Allowing users to generate and download avatars are common in many interactive websites. In this project, you'll learn how to create an image generator website that allows users to generate, combine, and download images.  This project should take you approximately 8 hours to complete.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Build a screenshot pipeline",
+        "description": "Set up a CI/CD workflow which will produce a screenshot of your homepage and keep it updated as you keep changing the code.  This kind of always-up-to-date screenshot can be useful for your README or as the basis of marketing materials that include screenshots of your website.  You can even use these images to perform [visual regression testing](https://medium.com/loftbr/visual-regression-testing-eb74050f3366)!",
+        "skills_required": [
+            "Node.js",
+            "React"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Link shortener website",
+        "description": "In this project, you'll learn how to build a website that shortens URLs. Optimizing the length of your website's URLs is useful on space-sensitive forums, helps websites rank better in search results, and are also easier for users to type out.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mortgage calculator web app",
+        "description": "Taking out loans and calculating monthly EMI can be confusing and stressful. However, with the help of a mortgage calculator, anyone can easily plan their mortgages out. You will build a mortgage calculator in this project!",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Appointment management system",
+        "description": "An appointment management system is a software used by companies and service providers to streamline their service appointments.  By using the system, potential customers can know and choose their preferred appointment times according to the companies and service providers' available time slots. This project does not include a B2C marketplace-like interface for customers to browse different service providers.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby on Rails",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Joke telling bot web app",
+        "description": "Whether it's smartphones, cars, or speakers, voice assistants are becoming more and more integral to our everyday lives. Not only so, voice assistants are gaining traction in companies to help streamline operations like Customer Service. In this project, you'll build a full-fledged Joke telling robot web app using Web Speech APIs, which can be applied to both web apps and mobile apps.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Road trip planner",
+        "description": "As travelling restrictions are beginning to be lifted globally, maybe it\u2019s finally time for you to plan that roadtrip! In this project, you\u2019ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.  There are many ways you can enhance this project and share it with friends and family.  Depending on how much extra challenge you take on, this project should take around 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Java",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random color palette generator web app",
+        "description": "In today's world, design is everything. Choosing the right color palette for a product or website will help evoke different emotions you'd like your audience to experience. You'll build a full-fledged random color palette generator web app using Colormind API, which can be used for both web apps and mobile apps.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Speed typing game",
+        "description": "Speed typing test websites are useful for people who want to learn to type faster, type without looking at their keyboards, practice typing specific sets of entries (think numeric tests, address test, emoji test?), or get used to a new keyboard.  This project will take 20 to 40 hours, depending on your coding experience and how much searching you need to do.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Daily sleep tracker web app",
+        "description": "Irregular sleeping patterns are a common problem. This web app will fulfill the user's needs in tracking their sleeping patterns, including duration and timings. You will create a web app to track three parameters: sleep time, wake up time, and sleep duration. Users can add, edit, or remove any sleep entries.",
+        "skills_required": [
+            "JavaScript",
+            "Java",
+            "Node.js",
+            "MySQL",
+            "React",
+            "HTML/CSS",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Vocabulary memorization website",
+        "description": "Nowadays, everyone is learning languages to advance careers or broaden horizons. Although there are many online resources to learn from, lack of vocabulary is often a pain point for many learners.  We'll create an application for foreign language learners to manage their vocabulary. You can start with a simple form for inserting words - one for your native language and another for the foreign language.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Image search gallery",
+        "description": "You\u2019ll create a simple image search application that allows the user to search for images using Unsplash\u2019s image API.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal YouTube web player",
+        "description": "You\u2019ll create your own personal simple Youtube browser application that allows you to search for and play videos.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Favorite stocks watcher",
+        "description": "You will create an application that can monitor and share stock portfolios efficiently with friends. The app should include the ability to monitor investments in order to help investors decide the next steps. The project should take about 25-30 hours to complete.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Django",
+            "Python",
+            "React"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Weather forecast website",
+        "description": "Make a web app for users to see the current weather and the weather forecast for the next 7 days.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "RSS feed reader website",
+        "description": "Let's build a RSS feed reader! Most news websites, blogs, podcasts, maintain a RSS feed which gives real-time content updates. You'll build a tool for fetching and converting the feed with a given RSS feed URL.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Temperature converter website",
+        "description": "You'll create a simple app to convert temperatures from Celsius to Fahrenheit, and vice-versa. This project should be implemented as a web page.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Invoicing and payment reminder mobile app",
+        "description": "This app can generate, send, and receive invoices, as well as send automated follow-up reminders about overdue payments.",
+        "skills_required": [
+            "MongoDB",
+            "Node.js",
+            "React",
+            "Express.js"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Online photo collage tool",
+        "description": "As many of us want to post photo collages in social media, it\u2019s useful to have an online tool to do simple image combinations without needing to open an image processing program.",
+        "skills_required": [
+            "Node.js",
+            "Python",
+            "React",
+            "Vue.js"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Link shortener website",
+        "description": "In this project, you'll learn how to build a website that shortens URLs. Optimizing the length of your website's URLs is useful on space-sensitive forums, helps websites rank better in search results, and are also easier for users to type out.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mortgage calculator web app",
+        "description": "Taking out loans and calculating monthly EMI can be confusing and stressful. However, with the help of a mortgage calculator, anyone can easily plan their mortgages out. You will build a mortgage calculator in this project!",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Appointment management system",
+        "description": "An appointment management system is a software used by companies and service providers to streamline their service appointments.  By using the system, potential customers can know and choose their preferred appointment times according to the companies and service providers' available time slots. This project does not include a B2C marketplace-like interface for customers to browse different service providers.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby on Rails",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Joke telling bot web app",
+        "description": "Whether it's smartphones, cars, or speakers, voice assistants are becoming more and more integral to our everyday lives. Not only so, voice assistants are gaining traction in companies to help streamline operations like Customer Service. In this project, you'll build a full-fledged Joke telling robot web app using Web Speech APIs, which can be applied to both web apps and mobile apps.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Road trip planner",
+        "description": "As travelling restrictions are beginning to be lifted globally, maybe it\u2019s finally time for you to plan that roadtrip! In this project, you\u2019ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.  There are many ways you can enhance this project and share it with friends and family.  Depending on how much extra challenge you take on, this project should take around 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Java",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random color palette generator web app",
+        "description": "In today's world, design is everything. Choosing the right color palette for a product or website will help evoke different emotions you'd like your audience to experience. You'll build a full-fledged random color palette generator web app using Colormind API, which can be used for both web apps and mobile apps.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Speed typing game",
+        "description": "Speed typing test websites are useful for people who want to learn to type faster, type without looking at their keyboards, practice typing specific sets of entries (think numeric tests, address test, emoji test?), or get used to a new keyboard.  This project will take 20 to 40 hours, depending on your coding experience and how much searching you need to do.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Daily sleep tracker web app",
+        "description": "Irregular sleeping patterns are a common problem. This web app will fulfill the user's needs in tracking their sleeping patterns, including duration and timings. You will create a web app to track three parameters: sleep time, wake up time, and sleep duration. Users can add, edit, or remove any sleep entries.",
+        "skills_required": [
+            "JavaScript",
+            "Java",
+            "Node.js",
+            "MySQL",
+            "React",
+            "HTML/CSS",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Vocabulary memorization website",
+        "description": "Nowadays, everyone is learning languages to advance careers or broaden horizons. Although there are many online resources to learn from, lack of vocabulary is often a pain point for many learners.  We'll create an application for foreign language learners to manage their vocabulary. You can start with a simple form for inserting words - one for your native language and another for the foreign language.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Image search gallery",
+        "description": "You\u2019ll create a simple image search application that allows the user to search for images using Unsplash\u2019s image API.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal YouTube web player",
+        "description": "You\u2019ll create your own personal simple Youtube browser application that allows you to search for and play videos.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Your own personal CRM",
+        "description": "In this project, you\u2019ll build a CRM that is tailored to your needs. You can keep track of your freelance clients, professional contacts, or even gift ideas for your friends and family.",
+        "skills_required": [
+            "MongoDB",
+            "Node.js",
+            "Express.js",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Online photo collage tool",
+        "description": "As many of us want to post photo collages in social media, it\u2019s useful to have an online tool to do simple image combinations without needing to open an image processing program.",
+        "skills_required": [
+            "Node.js",
+            "Python",
+            "React",
+            "Vue.js"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Downtime monitoring with reporting and alerts",
+        "description": "You\u2019ll build an automated downtime monitoring application with alerts and uptime reports. You can use this app to monitor your own websites.",
+        "skills_required": [
+            "MongoDB",
+            "PHP",
+            "Node.js",
+            "Express.js",
+            "Vue.js"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Temperature converter website",
+        "description": "You'll create a simple app to convert temperatures from Celsius to Fahrenheit, and vice-versa. This project should be implemented as a web page.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Alpaca image generator website",
+        "description": "At DevProjects, we love alpacas! It's our mascot, and we'd love for you to have your own alpaca profile photo. With that said, this project is not just about alpacas. Allowing users to generate and download avatars are common in many interactive websites. In this project, you'll learn how to create an image generator website that allows users to generate, combine, and download images.  This project should take you approximately 8 hours to complete.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Link shortener website",
+        "description": "In this project, you'll learn how to build a website that shortens URLs. Optimizing the length of your website's URLs is useful on space-sensitive forums, helps websites rank better in search results, and are also easier for users to type out.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "RSS feed reader website",
+        "description": "Let's build a RSS feed reader! Most news websites, blogs, podcasts, maintain a RSS feed which gives real-time content updates. You'll build a tool for fetching and converting the feed with a given RSS feed URL.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Temperature converter website",
+        "description": "You'll create a simple app to convert temperatures from Celsius to Fahrenheit, and vice-versa. This project should be implemented as a web page.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mortgage calculator web app",
+        "description": "Taking out loans and calculating monthly EMI can be confusing and stressful. However, with the help of a mortgage calculator, anyone can easily plan their mortgages out. You will build a mortgage calculator in this project!",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Appointment management system",
+        "description": "An appointment management system is a software used by companies and service providers to streamline their service appointments.  By using the system, potential customers can know and choose their preferred appointment times according to the companies and service providers' available time slots. This project does not include a B2C marketplace-like interface for customers to browse different service providers.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby on Rails",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Joke telling bot web app",
+        "description": "Whether it's smartphones, cars, or speakers, voice assistants are becoming more and more integral to our everyday lives. Not only so, voice assistants are gaining traction in companies to help streamline operations like Customer Service. In this project, you'll build a full-fledged Joke telling robot web app using Web Speech APIs, which can be applied to both web apps and mobile apps.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Road trip planner",
+        "description": "As travelling restrictions are beginning to be lifted globally, maybe it\u2019s finally time for you to plan that roadtrip! In this project, you\u2019ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.  There are many ways you can enhance this project and share it with friends and family.  Depending on how much extra challenge you take on, this project should take around 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Java",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random color palette generator web app",
+        "description": "In today's world, design is everything. Choosing the right color palette for a product or website will help evoke different emotions you'd like your audience to experience. You'll build a full-fledged random color palette generator web app using Colormind API, which can be used for both web apps and mobile apps.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Speed typing game",
+        "description": "Speed typing test websites are useful for people who want to learn to type faster, type without looking at their keyboards, practice typing specific sets of entries (think numeric tests, address test, emoji test?), or get used to a new keyboard.  This project will take 20 to 40 hours, depending on your coding experience and how much searching you need to do.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Vocabulary memorization website",
+        "description": "Nowadays, everyone is learning languages to advance careers or broaden horizons. Although there are many online resources to learn from, lack of vocabulary is often a pain point for many learners.  We'll create an application for foreign language learners to manage their vocabulary. You can start with a simple form for inserting words - one for your native language and another for the foreign language.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Image search gallery",
+        "description": "You\u2019ll create a simple image search application that allows the user to search for images using Unsplash\u2019s image API.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal YouTube web player",
+        "description": "You\u2019ll create your own personal simple Youtube browser application that allows you to search for and play videos.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "RSS feed reader in terminal",
+        "description": "Let's build a RSS feed reader! Most news websites, blogs, podcasts, maintain a RSS feed which gives real-time content updates. You'll build a tool for fetching and converting the feed with a given RSS feed URL.",
+        "skills_required": [
+            "Node.js",
+            "Python",
+            "Ruby"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "RSS feed reader website",
+        "description": "Let's build a RSS feed reader! Most news websites, blogs, podcasts, maintain a RSS feed which gives real-time content updates. You'll build a tool for fetching and converting the feed with a given RSS feed URL.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Web scraper to get news article content",
+        "description": "We'll build a simple web scraper that returns the content of a news article when given a specific URL. Some examples of products which use similar technologies include price-tracking websites and SEO audit tools.",
+        "skills_required": [
+            "Python"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Appointment management system",
+        "description": "An appointment management system is a software used by companies and service providers to streamline their service appointments.  By using the system, potential customers can know and choose their preferred appointment times according to the companies and service providers' available time slots. This project does not include a B2C marketplace-like interface for customers to browse different service providers.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby on Rails",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Road trip planner",
+        "description": "As travelling restrictions are beginning to be lifted globally, maybe it\u2019s finally time for you to plan that roadtrip! In this project, you\u2019ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.  There are many ways you can enhance this project and share it with friends and family.  Depending on how much extra challenge you take on, this project should take around 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Java",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Medicine dose tracker web app",
+        "description": "You\u2019ll build a web app with a simple UI where a user can sign up for an account. Once logged in, the user is presented with a simple form to add medicine name, dosages, and frequency. After adding those details, the user can view, edit, or delete this information.  The rough estimate for this project is 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Django",
+            "MySQL",
+            "Python",
+            "HTML/CSS",
+            "PostgreSQL"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Weekly newsletter summary email",
+        "description": "Build a serverless app to consolidate your email subscriptions into a single weekly summary email. This will declutter your inbox and combine the email newsletters you've subscribed to.",
+        "skills_required": [
+            "Python"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Background job system",
+        "description": "The background job system is a common component in the modern workflow. It can run jobs in an async fashion, which reduces the latency for clients.",
+        "skills_required": [
+            "Node.js",
+            "PHP",
+            "Java",
+            "Python",
+            "Ruby",
+            "Golang"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Favorite stocks watcher",
+        "description": "You will create an application that can monitor and share stock portfolios efficiently with friends. The app should include the ability to monitor investments in order to help investors decide the next steps. The project should take about 25-30 hours to complete.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Django",
+            "Python",
+            "React"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Plagiarism checker website",
+        "description": "You'll be building an automated solution that handles plagiarism detection. This might be used for publishing companies to replace a manual process in which they search for phrases from submitted manuscripts on Google to find pre-existing work.",
+        "skills_required": [
+            "Bootstrap",
+            "Python"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Online photo collage tool",
+        "description": "As many of us want to post photo collages in social media, it\u2019s useful to have an online tool to do simple image combinations without needing to open an image processing program.",
+        "skills_required": [
+            "Node.js",
+            "Python",
+            "React",
+            "Vue.js"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Alpaca image generator website",
+        "description": "At DevProjects, we love alpacas! It's our mascot, and we'd love for you to have your own alpaca profile photo. With that said, this project is not just about alpacas. Allowing users to generate and download avatars are common in many interactive websites. In this project, you'll learn how to create an image generator website that allows users to generate, combine, and download images.  This project should take you approximately 8 hours to complete.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Build a screenshot pipeline",
+        "description": "Set up a CI/CD workflow which will produce a screenshot of your homepage and keep it updated as you keep changing the code.  This kind of always-up-to-date screenshot can be useful for your README or as the basis of marketing materials that include screenshots of your website.  You can even use these images to perform [visual regression testing](https://medium.com/loftbr/visual-regression-testing-eb74050f3366)!",
+        "skills_required": [
+            "Node.js",
+            "React"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random number generator web app",
+        "description": "There are various use cases for a random number generator. You could do a random dice roll or get a random quote. Most of the time, the implementation is relatively straightforward and similar to this project\u2019s approach. In this project, we will create a dice roll simulation.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Link shortener website",
+        "description": "In this project, you'll learn how to build a website that shortens URLs. Optimizing the length of your website's URLs is useful on space-sensitive forums, helps websites rank better in search results, and are also easier for users to type out.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Build a custom google maps theme",
+        "description": "In this project, you\u2019ll be creating and styling a Google Map with a theme and custom marker images. You\u2019ll use Google Cloud Platform to create the map, and also use the Google Maps JavaScript API to load the map on a website. I\u2019ve created a Super Mario themed map here but you are welcome to use any style you\u2019d like!",
+        "skills_required": [
+            "JavaScript",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Mortgage calculator web app",
+        "description": "Taking out loans and calculating monthly EMI can be confusing and stressful. However, with the help of a mortgage calculator, anyone can easily plan their mortgages out. You will build a mortgage calculator in this project!",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Appointment management system",
+        "description": "An appointment management system is a software used by companies and service providers to streamline their service appointments.  By using the system, potential customers can know and choose their preferred appointment times according to the companies and service providers' available time slots. This project does not include a B2C marketplace-like interface for customers to browse different service providers.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby on Rails",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Joke telling bot web app",
+        "description": "Whether it's smartphones, cars, or speakers, voice assistants are becoming more and more integral to our everyday lives. Not only so, voice assistants are gaining traction in companies to help streamline operations like Customer Service. In this project, you'll build a full-fledged Joke telling robot web app using Web Speech APIs, which can be applied to both web apps and mobile apps.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Road trip planner",
+        "description": "As travelling restrictions are beginning to be lifted globally, maybe it\u2019s finally time for you to plan that roadtrip! In this project, you\u2019ll give users the opportunity to list out the destinations they want to visit, let users order them, and display the best route between destinations.  There are many ways you can enhance this project and share it with friends and family.  Depending on how much extra challenge you take on, this project should take around 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Java",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Random color palette generator web app",
+        "description": "In today's world, design is everything. Choosing the right color palette for a product or website will help evoke different emotions you'd like your audience to experience. You'll build a full-fledged random color palette generator web app using Colormind API, which can be used for both web apps and mobile apps.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Create a fast and secure blog using JAMStack",
+        "description": "With performance being at the forefront of developers minds, you\u2019ll be creating a site using JAMStack, which means your website will be super fast and will have better security, among other benefits.  You\u2019ll be using a Static Site Generator (SSG) to create a personal blog, including featured articles on the homepage, an articles page with pagination to older content, and individual blog posts, all without a database.",
+        "skills_required": [
+            "JavaScript",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Speed typing game",
+        "description": "Speed typing test websites are useful for people who want to learn to type faster, type without looking at their keyboards, practice typing specific sets of entries (think numeric tests, address test, emoji test?), or get used to a new keyboard.  This project will take 20 to 40 hours, depending on your coding experience and how much searching you need to do.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Daily sleep tracker web app",
+        "description": "Irregular sleeping patterns are a common problem. This web app will fulfill the user's needs in tracking their sleeping patterns, including duration and timings. You will create a web app to track three parameters: sleep time, wake up time, and sleep duration. Users can add, edit, or remove any sleep entries.",
+        "skills_required": [
+            "JavaScript",
+            "Java",
+            "Node.js",
+            "MySQL",
+            "React",
+            "HTML/CSS",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Medicine dose tracker web app",
+        "description": "You\u2019ll build a web app with a simple UI where a user can sign up for an account. Once logged in, the user is presented with a simple form to add medicine name, dosages, and frequency. After adding those details, the user can view, edit, or delete this information.  The rough estimate for this project is 20 hours.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Django",
+            "MySQL",
+            "Python",
+            "HTML/CSS",
+            "PostgreSQL"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Simple web contact form",
+        "description": "A form often needs to be used to pass data to various other applications. In many cases, it could be a database, in others, it may be to give a specific answer or a quote.  Regardless of how the information may need to be used, it is an important skill to be able to move data to new pages so it can be manipulated for use in further code. For this project, you will create a HTML web form.",
+        "skills_required": [
+            "PHP",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Weather forecast website",
+        "description": "Make a web app for users to see the current weather and the weather forecast for the next 7 days.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "RSS feed reader website",
+        "description": "Let's build a RSS feed reader! Most news websites, blogs, podcasts, maintain a RSS feed which gives real-time content updates. You'll build a tool for fetching and converting the feed with a given RSS feed URL.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Angular"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Vocabulary memorization website",
+        "description": "Nowadays, everyone is learning languages to advance careers or broaden horizons. Although there are many online resources to learn from, lack of vocabulary is often a pain point for many learners.  We'll create an application for foreign language learners to manage their vocabulary. You can start with a simple form for inserting words - one for your native language and another for the foreign language.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Image search gallery",
+        "description": "You\u2019ll create a simple image search application that allows the user to search for images using Unsplash\u2019s image API.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal YouTube web player",
+        "description": "You\u2019ll create your own personal simple Youtube browser application that allows you to search for and play videos.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Minimalist web analytics tool",
+        "description": "You\u2019ll build a simplified web analytics tool with the ability to track views, timestamps, anonymized user agents, and the referrer, and to display this data.",
+        "skills_required": [
+            "JavaScript"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Your own personal CRM",
+        "description": "In this project, you\u2019ll build a CRM that is tailored to your needs. You can keep track of your freelance clients, professional contacts, or even gift ideas for your friends and family.",
+        "skills_required": [
+            "MongoDB",
+            "Node.js",
+            "Express.js",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Weekly newsletter summary email",
+        "description": "Build a serverless app to consolidate your email subscriptions into a single weekly summary email. This will declutter your inbox and combine the email newsletters you've subscribed to.",
+        "skills_required": [
+            "Python"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal website with randomly generated design",
+        "description": "A personal website is the #1 most common first project for budding front-end developers. Build a simple personal website with a twist, by including a randomly generated stylesheet that updates every hour.",
+        "skills_required": [
+            "JavaScript",
+            "Node.js",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Favorite stocks watcher",
+        "description": "You will create an application that can monitor and share stock portfolios efficiently with friends. The app should include the ability to monitor investments in order to help investors decide the next steps. The project should take about 25-30 hours to complete.",
+        "skills_required": [
+            "JavaScript",
+            "PHP",
+            "Django",
+            "Python",
+            "React"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Plagiarism checker website",
+        "description": "You'll be building an automated solution that handles plagiarism detection. This might be used for publishing companies to replace a manual process in which they search for phrases from submitted manuscripts on Google to find pre-existing work.",
+        "skills_required": [
+            "Bootstrap",
+            "Python"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Online photo collage tool",
+        "description": "As many of us want to post photo collages in social media, it\u2019s useful to have an online tool to do simple image combinations without needing to open an image processing program.",
+        "skills_required": [
+            "Node.js",
+            "Python",
+            "React",
+            "Vue.js"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Downtime monitoring with reporting and alerts",
+        "description": "You\u2019ll build an automated downtime monitoring application with alerts and uptime reports. You can use this app to monitor your own websites.",
+        "skills_required": [
+            "MongoDB",
+            "PHP",
+            "Node.js",
+            "Express.js",
+            "Vue.js"
+        ],
+        "difficulty": "advanced"
+    },
+    {
+        "title": "Personal website SEO setup",
+        "description": "Most developers will create a personal website to showcase our experience and projects. In this project, you'll build a simple personal profile page hosted under your own domain.",
+        "skills_required": [
+            "JavaScript",
+            "Google Analytics",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Deploy your dev resume",
+        "description": "In this project, you will get familiar with HTML and CSS through creating your developer resume. Next, dip your toes into cloud services, by deploying your resume as a static website, connected to a CDN, served with HTTPS, and connecting your own domain name to it.",
+        "skills_required": [
+            "Azure",
+            "HTML/CSS",
+            "Google Cloud Platform"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Temperature converter website",
+        "description": "You'll create a simple app to convert temperatures from Celsius to Fahrenheit, and vice-versa. This project should be implemented as a web page.",
+        "skills_required": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Angular",
+            "Vue.js"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Globe with rotating animation and country label",
+        "description": "We would like to create a globe on a web page that paints out all continents. Users can select a country to rotate the globe to center on that country.",
+        "skills_required": [
+            "D3.js",
+            "JavaScript",
+            "HTML/CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Querying with SQL & Python",
+        "description": "Because SQLite needs no server or configuration, this is the easiest way to learn SQL alongside Python.",
+        "skills_required": [
+            "SQL",
+            "SQLite",
+            "Pandas"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Flash Cards",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "JavaScript Frameworks"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Single-Page CV",
+        "description": "The structure of your CV should be easily understandable and ready for styling in a future project.",
+        "skills_required": [
+            "HTML",
+            "Semantic HTML",
+            "Layout",
+            "SEO"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Basic HTML Website",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "Layouts",
+            "semantic HTML"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal Portfolio",
+        "description": "",
+        "skills_required": [
+            "CSS",
+            "Responsive Design",
+            "Box Model",
+            "Typography",
+            "Flexbox"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Changelog Component",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "Layouts",
+            "CSS",
+            "Flexbox"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Testimonial Cards",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "Layouts",
+            "Flexbox",
+            "Positioning"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Datepicker UI",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "Layouts",
+            "Positioning"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Accessible Form UI",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "Layouts",
+            "Positioning",
+            "Accessibility"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Image Grid Layout",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "Grid Layout",
+            "Responsive Design"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Tooltip UI",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "Positioning",
+            "Hover Effects"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Tabs",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM Manipulation"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Cookie Consent",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM Manipulation"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Restricted Textarea",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM Manipulation"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Accordion",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM Manipulation"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Age Calculator",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM Manipulation",
+            "Package Management"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Pricing Comparison Table",
+        "description": "A semantic page: Use<header>,<main>, and<footer>to structure the page itself.A real<table>with<thead>and<tbody>separating header rows from data rows.A<caption>as the first child of the table that names what is being compared.Header scopes: Usescope=\"col\"on column headers, andscope=\"row\"on the plan-name cells so screen readers can announce data in context.At least one merged cell: Addcolspanorrowspansomewhere meaningful \u2014 a section heading above several columns, or a highlight row that spans the table.Head metadata: Set<title>,<meta charset>, and<meta viewport>.",
+        "skills_required": [
+            "HTML",
+            "Tables",
+            "Semantic HTML",
+            "Accessibility"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Blog Post Page",
+        "description": "Page regions: Use<header>for the site name and primary navigation,<main>containing a single<article>for the post itself, and<footer>for closing content like copyright.One<h1>for the post title. Use<h2>and<h3>for sub-sections inside the article \u2014 do not skip levels.Real text elements: Use<p>for paragraphs,<ul>or<ol>for lists,<blockquote>(with<cite>for the source) for quoted text, and<code>or<pre>for any inline code or code blocks.Emphasis with meaning: Use<em>for stress and<strong>for importance. Avoid using them just to make text italic or bold.Descriptive link texton every link. No \"click here\" or \"read more\" \u2014 the link should describe where it goes.One image inside the articlewrapped in<figure>with a<figcaption>. Set a usefulalton the<img>and remember the caption is not a replacement for the alt text.Head metadata: Set<title>,<meta charset>,<meta viewport>, and a meta description summarising the post.",
+        "skills_required": [
+            "HTML",
+            "Semantic HTML",
+            "Text Content",
+            "Accessibility"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Contact Form",
+        "description": "A<form>elementwithactionset to a placeholder URL andmethod=\"post\".Real labelsfor every input, paired byforandid. A placeholder is not a label.The following fields:Full name (type=\"text\", required).Email (type=\"email\", required).Subject (<select>with at least three<option>s).Message (<textarea>, required, with aminlength).A \"How did you hear about us?\" group using<input type=\"radio\">inputs grouped inside a<fieldset>with a<legend>.An optional newsletter<input type=\"checkbox\">.A submit buttonwithtype=\"submit\"and clear text \u2014 no \"click here\".Browser validation attributeswhere appropriate (required,minlength,type=\"email\"). Remember these are a UX layer, not a security boundary; the server would still have to validate the data on its own.Head metadata: Set<title>,<meta charset>, and<meta viewport>.",
+        "skills_required": [
+            "HTML",
+            "Forms",
+            "Accessibility",
+            "Semantic HTML"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Photo Showcase",
+        "description": "A semantic page: Use<header>,<main>, and<footer>to structure the page itself.At least six imagesinside the main content. Each<img>must include:Asrcthat points to a real image (a local file or a public URL).A usefulaltattribute that describes the image, not the filename.widthandheightattributes to reserve layout space and prevent the page from jumping as images load.Captions on at least three imagesusing<figure>and<figcaption>. Remember: thealttext stands in for the image when it cannot be seen; the caption gives extra context to everyone.One decorative image(put any image) withalt=\"\"so screen readers skip it. Leaving the attribute off entirely is different - always include it.One embedded<video>withcontrols, aposterimage, and fallback text between the opening and closing tags. If you do not have a video file, use any small.mp4you have on your computer; the player UI will still appear from the markup alone.Head metadata: Set<title>,<meta charset>, and<meta viewport>.",
+        "skills_required": [
+            "HTML",
+            "Images",
+            "Media",
+            "Accessibility"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Pricing Cards",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "Flexbox",
+            "Box Model",
+            "Hover Effects"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Task Tracker",
+        "description": "You can use any programming language to build this project.Use positional arguments in command line to accept user inputs.Use a JSON file to store the tasks in the current directory.The JSON file should be created if it does not exist.Use the native file system module of your programming language to interact with the JSON file.Do not use any external libraries or frameworks to build this project.Ensure to handle errors and edge cases gracefully.",
+        "skills_required": [
+            "Programming Language",
+            "CLI",
+            "Filesystem"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "GitHub User Activity",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "CLI",
+            "API Consumption"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Expense Tracker",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "CLI",
+            "Filesystem",
+            "Logic Building"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Number Guessing Game",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "CLI",
+            "Logic Building"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Unit Converter",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "HTML",
+            "Server",
+            "Logic Building"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal Blog",
+        "description": "Here are some guidelines to help you implement the personal blog:",
+        "skills_required": [
+            "Programming Language",
+            "Basic Authentication",
+            "Markdown",
+            "Filesystem",
+            "Libraries"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Weather API",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "3rd Party APIs",
+            "Caching",
+            "Environment Variables"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Blogging Platform API",
+        "description": "Given below are the details for each API operation.",
+        "skills_required": [
+            "Programming Language",
+            "CRUD",
+            "RESTful API",
+            "Database"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Todo List API",
+        "description": "Given below is a list of the endpoints and the details of the request and response:",
+        "skills_required": [
+            "RESTful API",
+            "Database",
+            "CRUD Operations",
+            "Data Modeling",
+            "Authentication"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Expense Tracker API",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "Data modeling",
+            "User Authentication"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "GitHub Trending CLI",
+        "description": "",
+        "skills_required": [
+            "API",
+            "CLI",
+            "RESTful"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "TMDB CLI Tool",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "CLI",
+            "API Consumption"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Server Performance Stats",
+        "description": "",
+        "skills_required": [
+            "linux",
+            "bash",
+            "shell scripting"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Log Archive Tool",
+        "description": "",
+        "skills_required": [
+            "linux",
+            "bash",
+            "shell scripting"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Nginx Log Analyser",
+        "description": "",
+        "skills_required": [
+            "linux",
+            "bash",
+            "shell scripting"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "GitHub Pages Deployment",
+        "description": "",
+        "skills_required": [
+            "github actions",
+            "ci/cd"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "SSH Remote Server Setup",
+        "description": "",
+        "skills_required": [
+            "devops",
+            "linux"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Static Site Server",
+        "description": "",
+        "skills_required": [
+            "nginx",
+            "SSH",
+            "linux",
+            "devops",
+            "rsync"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Basic DNS Setup",
+        "description": "You are required to have a custom domain name to complete this project. You can use the domain name you already own or purchase a new domain name from any provider such as Cloudflare, Namecheap, Godaddy etc. Once you have a domain name, you can proceed to the next step.",
+        "skills_required": [
+            "devops",
+            "dns"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Simple Monitoring",
+        "description": "",
+        "skills_required": [
+            "monitoring",
+            "netdata",
+            "linux",
+            "devops"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Dummy Systemd Service",
+        "description": "",
+        "skills_required": [
+            "Linux",
+            "DevOps",
+            "Systemd"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Basic Dockerfile",
+        "description": "",
+        "skills_required": [
+            "docker",
+            "dockerfile",
+            "linux",
+            "devops"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "EC2 Instance",
+        "description": "",
+        "skills_required": [
+            "aws",
+            "ec2",
+            "linux",
+            "devops"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Python Job Listings Scraper",
+        "description": "After completing this project, you will know how to inspect a webpage\u2019s HTML, identify reusable patterns, and extract structured data using Python. You\u2019ll practice working with third-party libraries, organizing scraped data, and exporting it for later analysis. This project also prepares you to move on to more advanced scraping tasks with pagination, filtering, and real-world websites.",
+        "skills_required": [
+            "Data Analysis",
+            "Web Scrapping",
+            "Python",
+            "HTML"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Analysing Pharma Sales Data",
+        "description": "In this exercise, we have learned to use Python Pandas and Matplotlib libraries, the most popular data manipulation and visualization libraries in data science. Check out thisAnalysing Pharmaceutical Sales Data in Pythonarticle from Towards Data Science if you need some inspiration on how to solve this project.",
+        "skills_required": [
+            "Data Analysis",
+            "Data Viz",
+            "Python",
+            "Pandas"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Clean the Netflix Dataset",
+        "description": "",
+        "skills_required": [
+            "Data Analysis",
+            "Python",
+            "Pandas"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Exploring the Titanic Dataset",
+        "description": "This is one of the most used datasets for beginners. It has a clear goal, interesting variables, and enough missing data to practice real exploratory data analysis (EDA) skills.",
+        "skills_required": [
+            "EDA",
+            "Python",
+            "Pandas",
+            "Seaborn",
+            "Data Viz."
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Data Visualization Basics",
+        "description": "You will build the same charts in both libraries so you can compare how they work.",
+        "skills_required": [
+            "Matplotlib",
+            "Seaborn",
+            "Data Viz."
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Stock Price Analysis",
+        "description": "Stock data is a natural fit for time series because it changes every day and has a clear structure: open, close, high, low, volume.",
+        "skills_required": [
+            "Time Series",
+            "Pandas",
+            "Data Viz."
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Clean a CSV with Pandas",
+        "description": "The data cleaning workflow I\u2019ll be working with consists of 5 simple stages(Load, Inspect, Clean, Review, Export) that you can reuse on any dataset. You will also understand subtle issues like silent type casting and why checking the first few rows before loading a large file can save you a lot of time.",
+        "skills_required": [
+            "Pandas",
+            "Data Cleaning"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "E-Commerce Analysis",
+        "description": "You will practice cleaning a large, realistic dataset and computing a derived metric. You will also understand why negative quantities and zero prices exist in real transaction data, and how to handle them without deleting useful rows.",
+        "skills_required": [
+            "Pandas",
+            "EDA",
+            "Data Viz."
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Exploring the Iris Dataset",
+        "description": "You will practice univariate and bivariate analysis in a clean setting. You will also learn how to read a pairplot and a heatmap, and understand what \"linearly separable\" means when you actually see it in a scatter plot.",
+        "skills_required": [
+            "EDA",
+            "Seaborn",
+            "Matplotlib",
+            "Correlation"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Pandas Time Series",
+        "description": "You will understand howDatetimeIndexworks, how to use.resample(),.shift(),.rolling(), and.diff(), and why differencing is useful when working with financial or sales data. This project prepares you to work on any time series problem.",
+        "skills_required": [
+            "Pandas",
+            "Time Series",
+            "Resampling"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Quiz App",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Frameworks"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Weather Web App",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "3rd Party APIs",
+            "JavaScript",
+            "HMTL",
+            "CSS"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "GitHub Random Repository",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "API Integration",
+            "DOM Manipulation"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Pomodoro Timer",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Frameworks"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Custom Dropdown",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM Manipulation"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Task Tracker",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM Manipulation"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Reddit Client",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "API Integration",
+            "DOM Manipulation",
+            "Asynchronous Programming"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Temperature Converter",
+        "description": "",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM Manipulation"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Theme Switcher with CSS Variables",
+        "description": "",
+        "skills_required": [
+            "CSS",
+            "CSS Variables",
+            "Modern Selectors",
+            "Organization"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Caching Proxy",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "Text Processing",
+            "Markdown libraries",
+            "File Uploads"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Markdown Note-taking App",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "Text Processing",
+            "Markdown libraries",
+            "File Uploads"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "URL Shortening Service",
+        "description": "Given below are the details for each API operation.",
+        "skills_required": [
+            "Programming Language",
+            "Database Indexing",
+            "HTTP Redirects"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Broadcast Server",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "Networking",
+            "Websockets",
+            "HTTP"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Multi-Container Application",
+        "description": "The API should connect to MongoDB to store the todo items. You can useExpressfor the API andMongooseto connect to MongoDB. You can usenodemonto automatically restart the server when the source code changes.",
+        "skills_required": [
+            "nodejs",
+            "docker",
+            "devops"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "E-Commerce API",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "Database",
+            "Payment Gateway",
+            "Inventory Management"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Linux Server Setup",
+        "description": "",
+        "skills_required": [
+            "linux"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Workout Tracker",
+        "description": "You are required to develop an API for a workout tracker application that allows users to manage their workouts and track their progress. Your first task is to think about the database schema and the API endpoints that will be needed to support the application's functionality. Here are some of the key features you should consider:",
+        "skills_required": [
+            "Programming Language",
+            "Date and Time",
+            "Database",
+            "Seeder",
+            "OpenAPI"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Image Processing Service",
+        "description": "Here is the list of features that you should implement in this project:",
+        "skills_required": [
+            "Programming Language",
+            "Image Processing",
+            "Database",
+            "Queues"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Configuration Management",
+        "description": "bash# Run all the rolesansible-playbook setup.yml# Run only the app roleansible-playbook setup.yml --tags \"app\"",
+        "skills_required": [
+            "ansible",
+            "linux",
+            "devops"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "IaC on DigitalOcean",
+        "description": "",
+        "skills_required": [
+            "terraform",
+            "linux",
+            "devops"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Node.js Service Deployment",
+        "description": "Once you have the above setup, you are required to implement the following:",
+        "skills_required": [
+            "nodejs",
+            "docker",
+            "devops"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Dockerized Service",
+        "description": "Step 1\u2014 Creating a Node.js serviceStep 2\u2014 Dockerizing the Node.js serviceStep 3\u2014 Setup a remote Linux ServerStep 4\u2014 Deploying the Dockerized Node.js service to a remote server using GitHub Actions",
+        "skills_required": [
+            "nodejs",
+            "docker",
+            "devops"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Automated DB Backups",
+        "description": "Once you have a server and a database ready, you can proceed to the next step.",
+        "skills_required": [
+            "bash",
+            "devops"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Bastion Host",
+        "description": "",
+        "skills_required": [
+            "devops",
+            "security",
+            "linux"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "File Integrity Checker",
+        "description": "",
+        "skills_required": [
+            "Bash",
+            "Python",
+            "Linux",
+            "Cyber Security"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "VPN Server Setup",
+        "description": "Choose one of the following VPN solutions and complete the setup:",
+        "skills_required": [
+            "wireguard"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "STANS Nav System Deploy",
+        "description": "You will containerize and deploy this traffic navigation system with proper DevOps practices.",
+        "skills_required": [
+            "Docker",
+            "Typescript",
+            "Nginx",
+            "Devops"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "OpenAI API in Python",
+        "description": "You will understand how to interact with LLMs programmatically, what tokens are, and how parameters like temperature change model behavior. This is the foundation for every LLM project that follows.",
+        "skills_required": [
+            "OpenAI API",
+            "LLM",
+            "Python",
+            "prompt engineering"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Scalable E-Commerce Platform",
+        "description": "",
+        "skills_required": [
+            "Microservices",
+            "Database",
+            "Docker",
+            "Authentication"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "24hr Story Feature",
+        "description": "",
+        "skills_required": [
+            "JavaScript",
+            "Storage",
+            "Timeouts"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Movie Reservation System",
+        "description": "We have intentionally left out the implementation details to encourage you to think about the design and implementation of the system. However here are some requirements that you can consider:",
+        "skills_required": [
+            "Programming Language",
+            "Database",
+            "Scheduling",
+            "Authentication"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Real-time Leaderboard",
+        "description": "",
+        "skills_required": [
+            "Programming Language",
+            "Database",
+            "Scheduling",
+            "Authentication"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Database Backup Utility",
+        "description": "The CLI tool should support the following features:",
+        "skills_required": [
+            "Programming Language",
+            "Databases",
+            "CLI"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Blue-Green Deployment",
+        "description": "",
+        "skills_required": [
+            "bash",
+            "devops",
+            "monitoring"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Prometheus and Grafana",
+        "description": "Once your server is operational, you'll proceed with setting up Prometheus and Grafana.",
+        "skills_required": [
+            "bash",
+            "devops",
+            "monitoring"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Multi-Service Application",
+        "description": "",
+        "skills_required": [
+            "docker",
+            "docker-compose"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Service Discovery",
+        "description": "Understand how services register with ConsulLearn how to query Consul for service informationImplement a basic service discovery mechanismUnderstand service-to-service communication in a microservices architecture",
+        "skills_required": [
+            "devops",
+            "consul",
+            "api-gateway",
+            "monitoring"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Writing an end-to-end (e2e) test cases for an e-commerce app",
+        "description": "",
+        "skills_required": [
+            "QA"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "title": "Personal Portfolio Website",
+        "description": "A personal website to showcase your skills, projects, and experience.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "difficulty": "Intermediate"
+    },
+    {
+        "title": "To-Do List App",
+        "description": "A simple web application to manage and organize tasks.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React"
+        ],
+        "difficulty": "Beginner"
+    },
+    {
+        "title": "Weather Forecasting App",
+        "description": "An application that provides weather forecasts for different locations.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "API integration"
+        ],
+        "difficulty": "Intermediate"
+    },
+    {
+        "title": "E-commerce Website",
+        "description": "An online platform to buy and sell products.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Node.js",
+            "MongoDB"
+        ],
+        "difficulty": "Advanced"
+    },
+    {
+        "title": "Blogging Platform",
+        "description": "A web application that allows users to create and share blogs.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ],
+        "difficulty": "Intermediate"
+    },
+    {
+        "title": "Social Media Dashboard",
+        "description": "A dashboard to manage and analyze social media accounts.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "API integration"
+        ],
+        "difficulty": "Advanced"
+    },
+    {
+        "title": "Online Quiz App",
+        "description": "A web application that allows users to take quizzes on various topics.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React"
+        ],
+        "difficulty": "Intermediate"
+    },
+    {
+        "title": "Recipe Finder App",
+        "description": "An application that helps users find recipes based on available ingredients.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "API integration"
+        ],
+        "difficulty": "Intermediate"
+    },
+    {
+        "title": "Fitness Tracker",
+        "description": "A web application to track and analyze fitness activities.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Node.js",
+            "MongoDB"
+        ],
+        "difficulty": "Advanced"
+    },
+    {
+        "title": "Virtual Reality Game",
+        "description": "A 3D game that can be played using virtual reality headsets.",
+        "skills_required": [
+            "Unity",
+            "C#"
+        ],
+        "difficulty": "Expert"
+    },
+    {
+        "title": "Personal Finance Manager",
+        "description": "An application to manage and track personal finances.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Node.js",
+            "MongoDB"
+        ],
+        "difficulty": "Intermediate"
+    },
+    {
+        "title": "Online Voting System",
+        "description": "A secure web application for conducting online elections.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ],
+        "difficulty": "Advanced"
+    },
+    {
+        "title": "Job Portal",
+        "description": "An online platform for job seekers and employers to connect.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Node.js",
+            "MongoDB"
+        ],
+        "difficulty": "Advanced"
+    },
+    {
+        "title": "Real Estate Listing Website",
+        "description": "A website to buy, sell, and rent properties.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ],
+        "difficulty": "Advanced"
+    },
+    {
+        "title": "Online Learning Platform",
+        "description": "A web application that offers online courses and tutorials.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Node.js",
+            "MongoDB"
+        ],
+        "difficulty": "Advanced"
+    },
+    {
+        "title": "Event Management System",
+        "description": "An application to manage and organize events.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ],
+        "difficulty": "Advanced"
+    },
+    {
+        "title": "Online Food Ordering System",
+        "description": "A web application for ordering food from restaurants.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Node.js",
+            "MongoDB"
+        ],
+        "difficulty": "Advanced"
+    },
+    {
+        "title": "Travel Booking Website",
+        "description": "An online platform to book flights, hotels, and travel packages.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ],
+        "difficulty": "Advanced"
+    },
+    {
+        "title": "Online Music Streaming App",
+        "description": "A web application that allows users to stream music online.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Node.js",
+            "MongoDB"
+        ],
+        "difficulty": "Advanced"
+    },
+    {
+        "title": "Online Photo Editing Tool",
+        "description": "A web-based application for editing photos and images.",
+        "skills_required": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ],
+        "difficulty": "Advanced"
+    }
+]
