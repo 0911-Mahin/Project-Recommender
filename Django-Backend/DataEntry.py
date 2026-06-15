@@ -5,7 +5,11 @@ import sentence_transformers
 from Recommender.models import Skill, Project
 
 client = chromadb.PersistentClient(path="./ChromaDB")
-collection = client.create_collection(name="Projects", configuration={"hnsw": {"space": "cosine",}})
+collection = client.create_collection(name="Projects", configuration={
+        "hnsw": {
+            "space": "cosine",
+        }
+    })
 
 model = sentence_transformers.SentenceTransformer('all-MiniLM-L6-v2')
 
