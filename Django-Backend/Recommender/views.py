@@ -1,7 +1,8 @@
 import chromadb
 from django.shortcuts import render
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
 from sentence_transformers import SentenceTransformer
+from rest_framework.permissions import IsAuthenticated
 from functools import lru_cache
 from pathlib import Path
 from rest_framework.response import Response
@@ -25,6 +26,7 @@ def get_collection():
 
 # Create your views here.
 @api_view(['POST'])
+@permission_classes([IsAuthenticated])
 def recommend(request):
     skills = request.data.get('skills', "")
     if not skills:
