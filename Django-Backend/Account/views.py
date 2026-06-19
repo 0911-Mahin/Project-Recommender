@@ -1,8 +1,13 @@
 from django.shortcuts import render
 from django.contrib.auth.models import User
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 from rest_framework import status
+from rest_framework.permissions import IsAuthenticated
+
+from .serializers import SearchSerializer, FavoriteSerializer
+from .models import Favorite
+from Recommender.models import Project
 
 
 # Create your views here.
@@ -22,3 +27,50 @@ def register(request):
     user.save()
 
     return Response({"message": "User registered successfully."}, status=status.HTTP_201_CREATED)
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def searches(request):
+    searches = request.user.searches.all()
+    serializer = SearchSerializer(searches, many=True)
+    return Response(serializer.data)
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def favorites(request):
+    favorites = request.user.favorites.all()
+    serializer = FavoriteSerializer(favorites, many=True)
+    return Response(serializer.data)
+
+@api_view(['POST'])
+@permission_classes([IsAuthenticated])
+def add_favorite(request):
+    project_id = request.data.get('project_id')
+    if not project_id:
+        return Response({"error": "Project ID is required."}, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
+
+    try:
+        project = Project.objects.get(id=project_id)
+    except Project.DoesNotExist:
+        return Response({"error": "Project not found."}, status=status.HTTP_404_NOT_FOUND)
+
+    favorite, created = Favorite.objects.get_or_create(user=request.user, project=project)
+    if not created:
+        return Response({"message": "Project is already in favorites."}, status=status.HTTP_200_OK)
+
+    return Response({"message": "Project added to favorites."}, status=status.HTTP_201_CREATED)
+
+@api_view(['POST'])
+@permission_classes([IsAuthenticated])
+def remove_favorite(request):
+    project_id = request.data.get('project_id')
+    if not project_id:
+        return Response({"error": "Project ID is required."}, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
+
+    try:
+        favorite = Favorite.objects.get(user=request.user, project__id=project_id)
+    except Favorite.DoesNotExist:
+        return Response({"error": "Favorite not found."}, status=status.HTTP_404_NOT_FOUND)
+
+    favorite.delete()
+    return Response({"message": "Project removed from favorites."}, status=status.HTTP_200_OK)

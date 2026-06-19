@@ -1,3 +1,4 @@
+from datetime import datetime
 import chromadb
 from django.shortcuts import render
 from rest_framework.decorators import api_view, permission_classes
@@ -11,6 +12,7 @@ from django.conf import settings
 
 from .models import Project
 from .serializers import ProjectSerializer
+from Account.models import Search
 
 
 @lru_cache(maxsize=1)
@@ -45,6 +47,16 @@ def recommend(request):
     ids = [id for i, id in enumerate(results['ids'][0]) if results['distances'][0][i] < 0.6]
 
     projects = Project.objects.filter(id__in=ids).prefetch_related('skills_required')
+
+    search, created = Search.objects.get_or_create(user=request.user, query=skills)
+    if not created:
+        search.projects.clear()
+        search.timestamp = datetime.now()
+    search.projects.set(projects)
+    if request.user.searches.count() > 10:
+        oldest_search = request.user.searches.order_by('timestamp').first()
+        oldest_search.delete()
+
     serialized_projects = ProjectSerializer(projects, many=True)
 
     return Response(serialized_projects.data)
