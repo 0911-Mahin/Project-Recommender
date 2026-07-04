@@ -1,13 +1,13 @@
 from datetime import datetime
 import chromadb
 from django.shortcuts import render
-from rest_framework.decorators import api_view, permission_classes
+from rest_framework.decorators import api_view, throttle_classes
 from sentence_transformers import SentenceTransformer
-from rest_framework.permissions import IsAuthenticated
 from functools import lru_cache
 from pathlib import Path
 from rest_framework.response import Response
 from rest_framework import status
+from rest_framework.throttling import AnonRateThrottle, UserRateThrottle
 from django.conf import settings
 
 from .models import Project
@@ -28,7 +28,7 @@ def get_collection():
 
 # Create your views here.
 @api_view(['POST'])
-@permission_classes([IsAuthenticated])
+@throttle_classes([AnonRateThrottle, UserRateThrottle])
 def recommend(request):
     skills = request.data.get('skills', "")
     if not skills:
@@ -48,14 +48,15 @@ def recommend(request):
 
     projects = Project.objects.filter(id__in=ids).prefetch_related('skills_required')
 
-    search, created = Search.objects.get_or_create(user=request.user, query=skills)
-    if not created:
-        search.projects.clear()
-        search.timestamp = datetime.now()
-    search.projects.set(projects)
-    if request.user.searches.count() > 10:
-        oldest_search = request.user.searches.order_by('timestamp').first()
-        oldest_search.delete()
+    if request.user.is_authenticated:
+        search, created = Search.objects.get_or_create(user=request.user, query=skills)
+        if not created:
+            search.projects.clear()
+            search.timestamp = datetime.now()
+        search.projects.set(projects)
+        if request.user.searches.count() > 10:
+            oldest_search = request.user.searches.order_by('timestamp').first()
+            oldest_search.delete()
 
     serialized_projects = ProjectSerializer(projects, many=True)
 

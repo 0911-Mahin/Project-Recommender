@@ -1,9 +1,10 @@
 from django.shortcuts import render
 from django.contrib.auth.models import User
-from rest_framework.decorators import api_view, permission_classes
+from rest_framework.decorators import api_view, permission_classes, throttle_classes
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.throttling import AnonRateThrottle, UserRateThrottle
 
 from .serializers import SearchSerializer, FavoriteSerializer
 from .models import Favorite
@@ -30,6 +31,7 @@ def register(request):
 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
+@throttle_classes([AnonRateThrottle, UserRateThrottle])
 def searches(request):
     searches = request.user.searches.all()
     serializer = SearchSerializer(searches, many=True)
@@ -37,6 +39,7 @@ def searches(request):
 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
+@throttle_classes([AnonRateThrottle, UserRateThrottle])
 def favorites(request):
     favorites = request.user.favorites.all()
     serializer = FavoriteSerializer(favorites, many=True)
@@ -44,6 +47,7 @@ def favorites(request):
 
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
+@throttle_classes([AnonRateThrottle, UserRateThrottle])
 def add_favorite(request):
     project_id = request.data.get('project_id')
     if not project_id:
@@ -62,6 +66,7 @@ def add_favorite(request):
 
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
+@throttle_classes([AnonRateThrottle, UserRateThrottle])
 def remove_favorite(request):
     project_id = request.data.get('project_id')
     if not project_id:
