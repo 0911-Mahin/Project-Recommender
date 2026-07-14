@@ -1,0 +1,7 @@
+.route-wrapper {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 60px);
+    overflow: hidden;
+    flex-grow: 1;
+}

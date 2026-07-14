@@ -1,5 +1,9 @@
+import { motion } from 'motion/react'
+
 import './css/Common.css'
 
 export default function SignUp() {
-    return "Todo: SignUp"
+    return (
+        <motion.div>Todo: SignUp</motion.div>
+    )
 }
