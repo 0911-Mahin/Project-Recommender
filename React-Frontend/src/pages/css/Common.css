@@ -1,0 +1,9 @@
+.page-layout {
+    position: absolute;
+    top: 59px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 59px);
+    overflow-y: auto;
+    background: transparent;
+}
