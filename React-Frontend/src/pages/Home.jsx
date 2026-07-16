@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './css/Common.css'
 
-export default function Home() {
+export default function Home({ toastVersion, setToastVersion, toastContent, setToastContent }) {
     return (
         <motion.div
             initial={{ scale: 0 }}
