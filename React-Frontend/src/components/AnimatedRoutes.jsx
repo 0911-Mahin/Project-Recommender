@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import { AnimatePresence } from 'motion/react'
 
 import Home from '../pages/Home'
@@ -10,9 +10,18 @@ import SignUp from '../pages/SignUp'
 import Logout from '../pages/Logout'
 
 import './css/AnimatedRoutes.css'
+import { useEffect } from 'react';
 
-export default function AnimatedRoutes(toastData) {
+export default function AnimatedRoutes({ expired, ...toastData }) {
     const location = useLocation();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (expired) {
+            toastData.setToastContent({ message: "Session Timeout.\nPlease Login again", type: "info", fromPage: "Timeout" })
+            navigate('/login')
+        }
+    }, [expired])
 
     return (
         <AnimatePresence initial={false}>
