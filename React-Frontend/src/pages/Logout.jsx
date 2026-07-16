@@ -1,9 +1,17 @@
+import { useEffect } from 'react'
 import { motion } from 'motion/react'
+import { useNavigate } from 'react-router-dom'
 
 import './css/Common.css'
 
 export default function Logout({ toastVersion, setToastVersion, toastContent, setToastContent }) {
-    return (
-        <motion.div>Todo: Logout</motion.div>
-    )
+    const navigate = useNavigate()
+    useEffect(() => {
+        localStorage.clear()
+        window.dispatchEvent(new Event('authchange'))
+        setToastContent({ message: "Log Out Successful!", type: 'success', fromPage: "Logout" })
+        navigate("/");
+    }, [navigate])
+
+    return (<></>)
 }
