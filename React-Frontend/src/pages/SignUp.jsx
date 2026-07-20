@@ -4,7 +4,7 @@ import { useNavigate, Link } from "react-router-dom"
 
 import './css/Common.css'
 
-const baseInputStyle = "p-2 rounded-xs outline valid:outline-green-400 valid:text-cyan-800 focus:outline-sky-500 focus:invalid:border-pink-500"
+const baseInputStyle = "p-2 outline valid:outline-green-400 valid:text-cyan-800 focus:outline-sky-500 focus:invalid:border-pink-500"
 
 export default function SignUp({ toastVersion, setToastVersion, toastContent, setToastContent }) {
     const [touched, setTouched] = useState({
@@ -59,13 +59,13 @@ export default function SignUp({ toastVersion, setToastVersion, toastContent, se
         let type = 'error';
         if (res && res.status === 201) {
             const res_json = await res.json();
-            setToastContent({ message: res_json.message + " Login to get started", type: "success", fromPage: "SignUp" })
+            setToastContent({ message: res_json.message + " Login to get started", type: "info", fromPage: "SignUp" })
             navigate("/login");
             return;
         } else if (res && (res.status === 422 || res.status === 400)) {
             const err = await res.json()
             message = err.error
-            type = 'info'
+            type = 'error'
         }
 
         setToastContent({
@@ -84,13 +84,14 @@ export default function SignUp({ toastVersion, setToastVersion, toastContent, se
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ duration: 0.6, ease: "easeInOut" }}
-            className="page-layout flex justify-start"
+            className="page-layout flex justify-center items-center bg-linear-320 from-cyan-50 to-pink-50"
         >
-            <form onSubmit={handleSubmit} noValidate autoComplete='on' className='gap-4 bg-white m-3 p-10 rounded-sm flex flex-col justify-center items-center'>
-                <h1 className='text-4xl font-semibold pb-9'>Sign-Up</h1>
-                <div className='grid grid-cols-3 gap-4 w-full'>
+            <form onSubmit={handleSubmit} noValidate autoComplete='on' className='gap-4 bg-white p-10 mt-0 pt-4 flex flex-col justify-center items-center h-fit border-2 border-pink-900 shadow-2xl'>
+                <p className="pb-2 invisible h-0">Log in to see your saved projects and matches.</p>
+                <h1 className='text-4xl font-semibold pb-2'>Sign-Up</h1>
+                <div className='flex flex-col gap-1 w-full'>
                     <span className='text-lg mt-1'>Email:</span>
-                    <div className='flex flex-col col-span-2'>
+                    <div className='flex flex-col'>
                         <input type="email"
                             name='email'
                             placeholder='sample_1798@dom.ain'
@@ -101,7 +102,7 @@ export default function SignUp({ toastVersion, setToastVersion, toastContent, se
                         <p className={`text-pink-600 invisible ${touched.email ? 'peer-invalid/email:visible' : ''}`}>Please enter a valid email address.</p>
                     </div>
                     <span className='text-lg mt-1'>Username:</span>
-                    <div className='flex flex-col col-span-2'>
+                    <div className='flex flex-col'>
                         <input type="text"
                             name='username'
                             placeholder='sample_1798'
@@ -112,7 +113,7 @@ export default function SignUp({ toastVersion, setToastVersion, toastContent, se
                         <p className={`text-pink-600 invisible ${touched.username ? 'peer-invalid/username:visible' : ''}`}>Please enter a username.</p>
                     </div>
                     <span className='text-lg mt-1'>Password:</span>
-                    <div className='flex flex-col col-span-2'>
+                    <div className='flex flex-col'>
                         <input type="password"
                             name='password'
                             placeholder='********'
@@ -123,7 +124,7 @@ export default function SignUp({ toastVersion, setToastVersion, toastContent, se
                         <p className={`text-pink-600 invisible ${touched.password ? 'peer-invalid/password:visible' : ''}`}>Please enter a password.</p>
                     </div>
                     <span className='text-lg mt-1'>Confirm Password:</span>
-                    <div className='flex flex-col col-span-2'>
+                    <div className='flex flex-col'>
                         <input type="password"
                             id='confirm_password'
                             name='confirm_password'
@@ -135,8 +136,8 @@ export default function SignUp({ toastVersion, setToastVersion, toastContent, se
                         <p className={`text-pink-600 invisible ${touched.confpass ? 'peer-invalid/confpass:visible' : ''}`}>Passwords must match.</p>
                     </div>
                 </div>
-                <button type="submit" className="text-white bg-indigo-500 rounded-sm p-3 hover:bg-indigo-600 active:bg-indigo-700 w-full">Sign-Up</button>
-                <p>Already have an account? <Link to="/signup" className="text-blue-800 hover:underline">Login</Link></p>
+                <button type="submit" className="text-white bg-pink-900 hover:bg-pink-800 active:bg-pink-700 p-3 w-1/2 font-semibold">Sign - Up</button>
+                <p>Already have an account? <Link to="/signup" className="text-blue-400 hover:underline">Login</Link></p>
             </form>
         </motion.div>
     )

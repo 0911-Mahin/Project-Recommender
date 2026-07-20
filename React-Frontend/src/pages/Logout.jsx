@@ -9,7 +9,7 @@ export default function Logout({ toastVersion, setToastVersion, toastContent, se
     useEffect(() => {
         localStorage.clear()
         window.dispatchEvent(new Event('authchange'))
-        setToastContent({ message: "Log Out Successful!", type: 'success', fromPage: "Logout" })
+        setToastContent({ message: "Log Out Successful!", type: 'info', fromPage: "Logout" })
         navigate("/");
     }, [navigate])
 

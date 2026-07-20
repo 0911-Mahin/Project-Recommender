@@ -2,10 +2,8 @@ import React, { useState } from 'react'
 import { BrowserRouter } from 'react-router-dom';
 
 import AnimatedRoutes from './components/AnimatedRoutes';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar/Navbar'
 import MessageToast from './components/MessageToast';
-
-import './css/App.css'
 
 function App() {
 	const [toastVersion, setToastVersion] = useState(0)
@@ -50,7 +48,7 @@ function App() {
 	return (
 		<BrowserRouter>
 			<MessageToast {...toastContent} toastVersion={toastVersion} setToastContent={setToastContent} />
-			<div className="bg-[url(./background.gif)] bg-fixed bg-no-repeat bg-cover min-h-screen" onClick={check_tokens} onKeyDown={check_tokens}>
+			<div className="bg-gray-50 min-h-screen" onClick={check_tokens} onKeyDown={check_tokens}>
 				<Navbar />
 
 				<AnimatedRoutes {...toastData} expired={expired} />
