@@ -80,10 +80,10 @@ export default function SignUp({ toastVersion, setToastVersion, toastContent, se
 
     return (
         <motion.div
-            initial={{ x: "-100%" }}
-            animate={{ x: 0 }}
-            exit={{ x: "-100%" }}
-            transition={{ duration: 0.6, ease: "easeInOut" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
             className="page-layout flex justify-center items-center bg-linear-320 from-cyan-50 to-pink-50"
         >
             <form onSubmit={handleSubmit} noValidate autoComplete='on' className='gap-4 bg-white p-10 mt-0 pt-4 flex flex-col justify-center items-center h-fit border-2 border-pink-900 shadow-2xl'>

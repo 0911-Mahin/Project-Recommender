@@ -20,10 +20,10 @@ export default function Home({
 
     return (
         <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            exit={{ scale: 0 }}
-            transition={{ duration: 0.6, ease: "easeInOut" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
             className="page-layout"
         >
             <div className="flex h-[calc(100vh-59px)] ml-50 mr-50 items-center">
