@@ -9,11 +9,3 @@ class SearchSerializer(serializers.ModelSerializer):
     class Meta:
         model = Search
         fields = ['query', 'projects']
-
-
-class FavoriteSerializer(serializers.ModelSerializer):
-    project = ProjectSerializer(read_only=True)
-
-    class Meta:
-        model = Favorite
-        fields = ['project']

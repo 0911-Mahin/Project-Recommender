@@ -6,10 +6,10 @@ from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.throttling import AnonRateThrottle, UserRateThrottle
 
-from .serializers import SearchSerializer, FavoriteSerializer
+from .serializers import SearchSerializer
 from .models import Favorite
 from Recommender.models import Project
-
+from Recommender.serializers import ProjectSerializer
 
 # Create your views here.
 @api_view(['POST'])
@@ -41,8 +41,8 @@ def searches(request):
 @permission_classes([IsAuthenticated])
 @throttle_classes([AnonRateThrottle, UserRateThrottle])
 def favorites(request):
-    favorites = request.user.favorites.all()
-    serializer = FavoriteSerializer(favorites, many=True)
+    favorite_projects = Project.objects.filter(favorites__user=request.user)
+    serializer = ProjectSerializer(favorite_projects, many=True, context={"request": request})
     return Response(serializer.data)
 
 @api_view(['POST'])
