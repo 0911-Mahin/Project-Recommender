@@ -58,6 +58,6 @@ def recommend(request):
             oldest_search = request.user.searches.order_by('timestamp').first()
             oldest_search.delete()
 
-    serialized_projects = ProjectSerializer(projects, many=True)
+    serialized_projects = ProjectSerializer(projects, many=True, context={'request': request})
 
     return Response(serialized_projects.data)

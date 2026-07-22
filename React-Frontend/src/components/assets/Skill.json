@@ -1,0 +1,622 @@
+[
+    {
+        "id": 1,
+        "name": "Swift"
+    },
+    {
+        "id": 2,
+        "name": "Java"
+    },
+    {
+        "id": 3,
+        "name": "React Native"
+    },
+    {
+        "id": 4,
+        "name": "Kotlin"
+    },
+    {
+        "id": 5,
+        "name": "Flutter"
+    },
+    {
+        "id": 6,
+        "name": "JavaScript"
+    },
+    {
+        "id": 7,
+        "name": "Expo"
+    },
+    {
+        "id": 8,
+        "name": "Dart"
+    },
+    {
+        "id": 9,
+        "name": "Discord"
+    },
+    {
+        "id": 10,
+        "name": "Node.js"
+    },
+    {
+        "id": 11,
+        "name": "Python"
+    },
+    {
+        "id": 12,
+        "name": "Ruby"
+    },
+    {
+        "id": 13,
+        "name": "PHP"
+    },
+    {
+        "id": 14,
+        "name": "Golang"
+    },
+    {
+        "id": 15,
+        "name": "React"
+    },
+    {
+        "id": 16,
+        "name": "HTML/CSS"
+    },
+    {
+        "id": 17,
+        "name": "Angular"
+    },
+    {
+        "id": 18,
+        "name": "Vue.js"
+    },
+    {
+        "id": 19,
+        "name": "Google Analytics"
+    },
+    {
+        "id": 20,
+        "name": "MySQL"
+    },
+    {
+        "id": 21,
+        "name": "Django"
+    },
+    {
+        "id": 22,
+        "name": "PostgreSQL"
+    },
+    {
+        "id": 23,
+        "name": "Ruby on Rails"
+    },
+    {
+        "id": 24,
+        "name": "MongoDB"
+    },
+    {
+        "id": 25,
+        "name": "Express.js"
+    },
+    {
+        "id": 26,
+        "name": "D3.js"
+    },
+    {
+        "id": 27,
+        "name": "Bootstrap"
+    },
+    {
+        "id": 28,
+        "name": "Azure"
+    },
+    {
+        "id": 29,
+        "name": "Google Cloud Platform"
+    },
+    {
+        "id": 30,
+        "name": "SQL"
+    },
+    {
+        "id": 31,
+        "name": "SQLite"
+    },
+    {
+        "id": 32,
+        "name": "Pandas"
+    },
+    {
+        "id": 33,
+        "name": "HTML"
+    },
+    {
+        "id": 34,
+        "name": "CSS"
+    },
+    {
+        "id": 35,
+        "name": "JavaScript Frameworks"
+    },
+    {
+        "id": 36,
+        "name": "Semantic HTML"
+    },
+    {
+        "id": 37,
+        "name": "Layout"
+    },
+    {
+        "id": 38,
+        "name": "SEO"
+    },
+    {
+        "id": 39,
+        "name": "Layouts"
+    },
+    {
+        "id": 40,
+        "name": "semantic HTML"
+    },
+    {
+        "id": 41,
+        "name": "Responsive Design"
+    },
+    {
+        "id": 42,
+        "name": "Box Model"
+    },
+    {
+        "id": 43,
+        "name": "Typography"
+    },
+    {
+        "id": 44,
+        "name": "Flexbox"
+    },
+    {
+        "id": 45,
+        "name": "Positioning"
+    },
+    {
+        "id": 46,
+        "name": "Accessibility"
+    },
+    {
+        "id": 47,
+        "name": "Grid Layout"
+    },
+    {
+        "id": 48,
+        "name": "Hover Effects"
+    },
+    {
+        "id": 49,
+        "name": "DOM Manipulation"
+    },
+    {
+        "id": 50,
+        "name": "Package Management"
+    },
+    {
+        "id": 51,
+        "name": "Tables"
+    },
+    {
+        "id": 52,
+        "name": "Text Content"
+    },
+    {
+        "id": 53,
+        "name": "Forms"
+    },
+    {
+        "id": 54,
+        "name": "Images"
+    },
+    {
+        "id": 55,
+        "name": "Media"
+    },
+    {
+        "id": 56,
+        "name": "Programming Language"
+    },
+    {
+        "id": 57,
+        "name": "CLI"
+    },
+    {
+        "id": 58,
+        "name": "Filesystem"
+    },
+    {
+        "id": 59,
+        "name": "API Consumption"
+    },
+    {
+        "id": 60,
+        "name": "Logic Building"
+    },
+    {
+        "id": 61,
+        "name": "Server"
+    },
+    {
+        "id": 62,
+        "name": "Basic Authentication"
+    },
+    {
+        "id": 63,
+        "name": "Markdown"
+    },
+    {
+        "id": 64,
+        "name": "Libraries"
+    },
+    {
+        "id": 65,
+        "name": "3rd Party APIs"
+    },
+    {
+        "id": 66,
+        "name": "Caching"
+    },
+    {
+        "id": 67,
+        "name": "Environment Variables"
+    },
+    {
+        "id": 68,
+        "name": "CRUD"
+    },
+    {
+        "id": 69,
+        "name": "RESTful API"
+    },
+    {
+        "id": 70,
+        "name": "Database"
+    },
+    {
+        "id": 71,
+        "name": "CRUD Operations"
+    },
+    {
+        "id": 72,
+        "name": "Data Modeling"
+    },
+    {
+        "id": 73,
+        "name": "Authentication"
+    },
+    {
+        "id": 74,
+        "name": "Data modeling"
+    },
+    {
+        "id": 75,
+        "name": "User Authentication"
+    },
+    {
+        "id": 76,
+        "name": "API"
+    },
+    {
+        "id": 77,
+        "name": "RESTful"
+    },
+    {
+        "id": 78,
+        "name": "linux"
+    },
+    {
+        "id": 79,
+        "name": "bash"
+    },
+    {
+        "id": 80,
+        "name": "shell scripting"
+    },
+    {
+        "id": 81,
+        "name": "github actions"
+    },
+    {
+        "id": 82,
+        "name": "ci/cd"
+    },
+    {
+        "id": 83,
+        "name": "devops"
+    },
+    {
+        "id": 84,
+        "name": "nginx"
+    },
+    {
+        "id": 85,
+        "name": "SSH"
+    },
+    {
+        "id": 86,
+        "name": "rsync"
+    },
+    {
+        "id": 87,
+        "name": "dns"
+    },
+    {
+        "id": 88,
+        "name": "monitoring"
+    },
+    {
+        "id": 89,
+        "name": "netdata"
+    },
+    {
+        "id": 90,
+        "name": "Linux"
+    },
+    {
+        "id": 91,
+        "name": "DevOps"
+    },
+    {
+        "id": 92,
+        "name": "Systemd"
+    },
+    {
+        "id": 93,
+        "name": "docker"
+    },
+    {
+        "id": 94,
+        "name": "dockerfile"
+    },
+    {
+        "id": 95,
+        "name": "aws"
+    },
+    {
+        "id": 96,
+        "name": "ec2"
+    },
+    {
+        "id": 97,
+        "name": "Data Analysis"
+    },
+    {
+        "id": 98,
+        "name": "Web Scrapping"
+    },
+    {
+        "id": 99,
+        "name": "Data Viz"
+    },
+    {
+        "id": 100,
+        "name": "EDA"
+    },
+    {
+        "id": 101,
+        "name": "Seaborn"
+    },
+    {
+        "id": 102,
+        "name": "Data Viz."
+    },
+    {
+        "id": 103,
+        "name": "Matplotlib"
+    },
+    {
+        "id": 104,
+        "name": "Time Series"
+    },
+    {
+        "id": 105,
+        "name": "Data Cleaning"
+    },
+    {
+        "id": 106,
+        "name": "Correlation"
+    },
+    {
+        "id": 107,
+        "name": "Resampling"
+    },
+    {
+        "id": 108,
+        "name": "Frameworks"
+    },
+    {
+        "id": 109,
+        "name": "HMTL"
+    },
+    {
+        "id": 110,
+        "name": "API Integration"
+    },
+    {
+        "id": 111,
+        "name": "Asynchronous Programming"
+    },
+    {
+        "id": 112,
+        "name": "CSS Variables"
+    },
+    {
+        "id": 113,
+        "name": "Modern Selectors"
+    },
+    {
+        "id": 114,
+        "name": "Organization"
+    },
+    {
+        "id": 115,
+        "name": "Text Processing"
+    },
+    {
+        "id": 116,
+        "name": "Markdown libraries"
+    },
+    {
+        "id": 117,
+        "name": "File Uploads"
+    },
+    {
+        "id": 118,
+        "name": "Database Indexing"
+    },
+    {
+        "id": 119,
+        "name": "HTTP Redirects"
+    },
+    {
+        "id": 120,
+        "name": "Networking"
+    },
+    {
+        "id": 121,
+        "name": "Websockets"
+    },
+    {
+        "id": 122,
+        "name": "HTTP"
+    },
+    {
+        "id": 123,
+        "name": "nodejs"
+    },
+    {
+        "id": 124,
+        "name": "Payment Gateway"
+    },
+    {
+        "id": 125,
+        "name": "Inventory Management"
+    },
+    {
+        "id": 126,
+        "name": "Date and Time"
+    },
+    {
+        "id": 127,
+        "name": "Seeder"
+    },
+    {
+        "id": 128,
+        "name": "OpenAPI"
+    },
+    {
+        "id": 129,
+        "name": "Image Processing"
+    },
+    {
+        "id": 130,
+        "name": "Queues"
+    },
+    {
+        "id": 131,
+        "name": "ansible"
+    },
+    {
+        "id": 132,
+        "name": "terraform"
+    },
+    {
+        "id": 133,
+        "name": "security"
+    },
+    {
+        "id": 134,
+        "name": "Bash"
+    },
+    {
+        "id": 135,
+        "name": "Cyber Security"
+    },
+    {
+        "id": 136,
+        "name": "wireguard"
+    },
+    {
+        "id": 137,
+        "name": "Docker"
+    },
+    {
+        "id": 138,
+        "name": "Typescript"
+    },
+    {
+        "id": 139,
+        "name": "Nginx"
+    },
+    {
+        "id": 140,
+        "name": "Devops"
+    },
+    {
+        "id": 141,
+        "name": "OpenAI API"
+    },
+    {
+        "id": 142,
+        "name": "LLM"
+    },
+    {
+        "id": 143,
+        "name": "prompt engineering"
+    },
+    {
+        "id": 144,
+        "name": "Microservices"
+    },
+    {
+        "id": 145,
+        "name": "Storage"
+    },
+    {
+        "id": 146,
+        "name": "Timeouts"
+    },
+    {
+        "id": 147,
+        "name": "Scheduling"
+    },
+    {
+        "id": 148,
+        "name": "Databases"
+    },
+    {
+        "id": 149,
+        "name": "docker-compose"
+    },
+    {
+        "id": 150,
+        "name": "consul"
+    },
+    {
+        "id": 151,
+        "name": "api-gateway"
+    },
+    {
+        "id": 152,
+        "name": "QA"
+    },
+    {
+        "id": 153,
+        "name": "API integration"
+    },
+    {
+        "id": 154,
+        "name": "Unity"
+    },
+    {
+        "id": 155,
+        "name": "C#"
+    }
+]
