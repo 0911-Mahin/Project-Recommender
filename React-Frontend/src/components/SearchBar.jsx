@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 import skills from './assets/Skill.json';
 
@@ -7,8 +8,9 @@ function normalizeSkillName(value) {
 }
 
 export default function SearchBar({ onSearch }) {
+    const location = useLocation()
     const [searchText, setSearchText] = useState('');
-    const [selectedSkills, setSelectedSkills] = useState([]);
+    const [selectedSkills, setSelectedSkills] = useState(location.state ? location.state.query.split(', ') : []);
     const [isLoading, setIsLoading] = useState(false);
 
     const filteredSkills = useMemo(() => {

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'motion/react'
+import { useLocation } from 'react-router-dom'
 import SearchBar from '../components/SearchBar'
 
 import Card from '../components/Card'
@@ -7,7 +8,8 @@ import Card from '../components/Card'
 import './css/Common.css'
 
 export default function Recommend({ toastVersion, setToastVersion, toastContent, setToastContent }) {
-    const [recommendedProjects, setRecommendedProjects] = useState([])
+    const location = useLocation()
+    const [recommendedProjects, setRecommendedProjects] = useState(location.state ? location.state.projects : [])
 
     const fetchProjects = async (query) => {
         const myHeaders = new Headers();
