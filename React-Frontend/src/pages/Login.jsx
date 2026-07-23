@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 
 import "./css/Common.css";
+import { getToken } from "../assets/api";
 
 const baseInputStyle =
     "p-2 outline valid:outline-green-400 valid:text-cyan-800 focus:outline-sky-500 focus:invalid:border-pink-500";
@@ -45,34 +46,14 @@ export default function Login({
         const username = formData.get("username");
         const password = formData.get("password");
 
-        const res = await fetch("http://localhost:8000/api/token/", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ username, password }),
-        }).catch(() => { });
-
-        let message = "Something went wrong. Please try again later.";
-        let type = "error";
-        if (res && res.status === 200) {
-            const tokens = await res.json();
+        const [message, type, tokens] = await getToken(username, password)
+        if (type === 'info') {
             localStorage.clear();
             localStorage.setItem("token", tokens.access);
             localStorage.setItem("refresh", tokens.refresh);
-            localStorage.setItem("timestamp", JSON.stringify(Date.now()));
+            localStorage.setItem("timestamp", Date.now());
             window.dispatchEvent(new Event("authchange"));
-            setToastContent({
-                message: "Login successful!",
-                type: "info",
-                fromPage: "Login",
-            });
             navigate("/recommend");
-            return;
-        } else if (res && res.status === 401) {
-            const err = await res.json();
-            message = err.detail;
-            type = "error";
         }
 
         setToastContent({

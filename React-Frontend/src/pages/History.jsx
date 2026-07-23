@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import SearchCard from '../components/SearchCard'
 
 import './css/Common.css'
+import { fetchHistory } from '../assets/api'
 
 export default function History({ toastVersion, setToastVersion, toastContent, setToastContent }) {
     const [searches, setSearches] = useState([])
@@ -24,23 +25,30 @@ export default function History({ toastVersion, setToastVersion, toastContent, s
                 return
             }
 
-            const myHeaders = new Headers();
-            myHeaders.append("Authorization", "Bearer " + token);
-
-            const requestOptions = {
-                method: "GET",
-                headers: myHeaders,
-                redirect: "follow"
-            };
-
-            const res = await fetch("http://localhost:8000/account/searches/", requestOptions)
-
-            if (res?.status === 200) {
-                const data = await res.json()
+            const data = await fetchHistory(token)
+            if (data) {
                 setSearches(data)
                 setIsFetching(false)
                 return
             }
+
+            // const myHeaders = new Headers();
+            // myHeaders.append("Authorization", "Bearer " + token);
+
+            // const requestOptions = {
+            //     method: "GET",
+            //     headers: myHeaders,
+            //     redirect: "follow"
+            // };
+
+            // const res = await fetch("http://localhost:8000/account/searches/", requestOptions)
+
+            // if (res?.status === 200) {
+            //     const data = await res.json()
+            //     setSearches(data)
+            //     setIsFetching(false)
+            //     return
+            // }
             setToastContent({
                 message: "Something went wrong. Please try again later.",
                 type: 'error',

@@ -6,79 +6,31 @@ import SearchBar from '../components/SearchBar'
 import Card from '../components/Card'
 
 import './css/Common.css'
+import { addOrRemoveFavorite, recommendProjects } from '../assets/api'
 
 export default function Recommend({ toastVersion, setToastVersion, toastContent, setToastContent }) {
     const location = useLocation()
     const [recommendedProjects, setRecommendedProjects] = useState(location.state ? location.state.projects : [])
 
     const fetchProjects = async (query) => {
-        const myHeaders = new Headers();
-        myHeaders.append("Content-Type", "application/json");
-        const token = localStorage.getItem('token')
-        if (token) {
-            myHeaders.append("Authorization", "Bearer " + token);
-        }
-
-        const raw = JSON.stringify({
-            "skills": query
-        });
-
-        const requestOptions = {
-            method: "POST",
-            headers: myHeaders,
-            body: raw,
-        };
-
-        const res = await fetch("http://localhost:8000/recommend/", requestOptions).catch(() => { })
-
-        let message = "Something went wrong. Please try again later."
-        if (res?.status == 200) {
-            const data = await res.json()
+        const data = await recommendProjects(query)
+        if (typeof data == 'string') {
+            setToastContent({
+                message: data,
+                type: 'error',
+                fromPage: 'Recommend'
+            })
+        } else {
             setRecommendedProjects(data)
-            return
-        } else if (res?.status == 429) {
-            const data = await res.json()
-            const sec = data.detail.match(/(\d+)/)[0];
-
-            const hours = Math.floor(sec / 3600);
-            const minutes = Math.floor((sec % 3600) / 60);
-            const seconds = sec % 60;
-            const hDisplay = String(hours).padStart(2, '0');
-            const mDisplay = String(minutes).padStart(2, '0');
-            const sDisplay = String(seconds).padStart(2, '0');
-
-            message = `Dialy Limit Reached. Reset in \n${hDisplay} hours ${mDisplay} minutes ${sDisplay} seconds`
         }
-
-        setToastContent({
-            message,
-            type: 'error',
-            fromPage: 'Recommend'
-        })
-        return
     }
 
     const favoriteProj = async (id, state) => {
         const token = localStorage.getItem("token")
         if (token) {
-            const url = state ? "http://localhost:8000/account/add_favorite/" : "http://localhost:8000/account/remove_favorite/"
-            const myHeaders = new Headers();
-            myHeaders.append("Content-Type", "application/json");
-            myHeaders.append("Authorization", "Bearer " + token);
+            const done = await addOrRemoveFavorite(id, state, token)
 
-            const raw = JSON.stringify({
-                "project_id": id
-            });
-
-            const requestOptions = {
-                method: "POST",
-                headers: myHeaders,
-                body: raw,
-            };
-
-            const res = await fetch(url, requestOptions)
-
-            if (!(res?.status === 201 || res?.status === 200)) {
+            if (!done) {
                 setToastContent({
                     message: "Something went wrong. Please try again later.",
                     type: 'error',
@@ -86,7 +38,14 @@ export default function Recommend({ toastVersion, setToastVersion, toastContent,
                 })
                 throw new Error("");
             }
+            return
         }
+        setToastContent({
+            message: "Login to bookmark projetcs",
+            type: 'error',
+            fromPage: 'Recommend'
+        })
+        throw new Error("");
     }
 
     return (

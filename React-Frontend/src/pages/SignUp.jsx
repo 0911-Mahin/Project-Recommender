@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { useNavigate, Link } from "react-router-dom"
 
 import './css/Common.css'
+import { registerAccount } from '../assets/api'
 
 const baseInputStyle = "p-2 outline valid:outline-green-400 valid:text-cyan-800 focus:outline-sky-500 focus:invalid:border-pink-500"
 
@@ -47,25 +48,10 @@ export default function SignUp({ toastVersion, setToastVersion, toastContent, se
             return
         }
 
-        const res = await fetch("http://localhost:8000/account/register/", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ username, email, password }),
-        }).catch(() => { });
+        const [message, type] = await registerAccount(email, username, password)
 
-        let message = "Something went wrong. Please try again later.";
-        let type = 'error';
-        if (res && res.status === 201) {
-            const res_json = await res.json();
-            setToastContent({ message: res_json.message + " Login to get started", type: "info", fromPage: "SignUp" })
-            navigate("/login");
-            return;
-        } else if (res && (res.status === 422 || res.status === 400)) {
-            const err = await res.json()
-            message = err.error
-            type = 'error'
+        if (type === 'info') {
+            navigate("/login")
         }
 
         setToastContent({

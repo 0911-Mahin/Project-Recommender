@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import Card from '../components/Card'
 
 import './css/Common.css'
+import { fetchFavorites, addOrRemoveFavorite } from '../assets/api'
 
 export default function Bookmarks({ toastVersion, setToastVersion, toastContent, setToastContent }) {
     const [favorites, setFavorites] = useState([])
@@ -24,19 +25,9 @@ export default function Bookmarks({ toastVersion, setToastVersion, toastContent,
                 return
             }
 
-            const myHeaders = new Headers();
-            myHeaders.append("Authorization", "Bearer " + token);
+            const data = await fetchFavorites(token)
 
-            const requestOptions = {
-                method: "GET",
-                headers: myHeaders,
-                redirect: "follow"
-            };
-
-            const res = await fetch("http://localhost:8000/account/favorites/", requestOptions)
-
-            if (res?.status === 200) {
-                const data = await res.json()
+            if (data) {
                 setFavorites(data)
                 setIsFetching(false)
                 return
@@ -52,31 +43,17 @@ export default function Bookmarks({ toastVersion, setToastVersion, toastContent,
     const favoriteProj = async (id, state) => {
         const token = localStorage.getItem("token")
         if (token) {
-            const url = state ? "http://localhost:8000/account/add_favorite/" : "http://localhost:8000/account/remove_favorite/"
-            const myHeaders = new Headers();
-            myHeaders.append("Content-Type", "application/json");
-            myHeaders.append("Authorization", "Bearer " + token);
+            const done = await addOrRemoveFavorite(id, state, token)
 
-            const raw = JSON.stringify({
-                "project_id": id
-            });
-
-            const requestOptions = {
-                method: "POST",
-                headers: myHeaders,
-                body: raw,
-            };
-
-            const res = await fetch(url, requestOptions)
-
-            if (!(res?.status === 201 || res?.status === 200)) {
+            if (!done) {
                 setToastContent({
                     message: "Something went wrong. Please try again later.",
                     type: 'error',
-                    fromPage: 'Recommend'
+                    fromPage: 'Bookmarks'
                 })
                 throw new Error("");
             }
+            return
         }
     }
 
