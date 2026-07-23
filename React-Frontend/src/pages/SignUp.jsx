@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import { useNavigate, Link } from "react-router-dom"
 
 import './css/Common.css'
-import { registerAccount } from '../assets/api'
+import { getToken, registerAccount } from '../assets/api'
 
 const baseInputStyle = "p-2 outline valid:outline-green-400 valid:text-cyan-800 focus:outline-sky-500 focus:invalid:border-pink-500"
 
@@ -48,10 +48,21 @@ export default function SignUp({ toastVersion, setToastVersion, toastContent, se
             return
         }
 
-        const [message, type] = await registerAccount(email, username, password)
+        let [message, type] = await registerAccount(email, username, password)
 
         if (type === 'info') {
-            navigate("/login")
+            const [login_message, login_type, tokens] = await getToken(username, password)
+            if (type === 'info') {
+                localStorage.clear();
+                localStorage.setItem("token", tokens.access);
+                localStorage.setItem("refresh", tokens.refresh);
+                localStorage.setItem("timestamp", Date.now());
+                window.dispatchEvent(new Event("authchange"));
+                navigate("/recommend");
+            } else {
+                message = "Something went wrong. Please try again later."
+                type = 'error'
+            }
         }
 
         setToastContent({

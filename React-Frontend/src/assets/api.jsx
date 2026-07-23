@@ -53,7 +53,7 @@ export async function registerAccount(email, username, password) {
     let type = 'error';
     if (res?.status === 201) {
         const res_json = await res.json();
-        message = res_json.message + " Login to get started"
+        message = res_json.message
         type = 'info'
     } else if (res && (res.status === 422 || res.status === 400)) {
         const err = await res.json()
