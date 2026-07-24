@@ -5,11 +5,11 @@ from django.shortcuts import render
 from rest_framework.decorators import api_view, throttle_classes
 from sentence_transformers import SentenceTransformer
 from functools import lru_cache
-from pathlib import Path
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.throttling import AnonRateThrottle, UserRateThrottle
 from django.conf import settings
+import os
 
 from .models import Project
 from .serializers import ProjectSerializer
@@ -18,11 +18,13 @@ from Account.models import Search
 
 @lru_cache(maxsize=1)
 def get_model() -> SentenceTransformer:
-    return SentenceTransformer("all-MiniLM-L6-v2")
+    path = os.path.join(settings.BASE_DIR, "model", "")
+    print(path)
+    return SentenceTransformer(path)
 
 @lru_cache(maxsize=1)
 def get_collection():
-    path = Path.joinpath(settings.BASE_DIR, "ChromaDB")
+    path = os.path.join(settings.BASE_DIR, "ChromaDB")
     client = chromadb.PersistentClient(path=path)
     return client.get_collection("Projects")
 
