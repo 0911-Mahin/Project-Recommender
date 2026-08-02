@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:8000'
+const baseURL = import.meta.env.VITE_REST_API_URL || 'http://localhost:8000'
 
 export async function refreshTokens() {
     const refresh = localStorage.getItem('refresh')
