@@ -5,6 +5,8 @@
 __Projects that are relevant__  
 Software developers usually have all the skills they need but aren't able to prove it to their clients. They scroll through generic project lists trying to find the right project to do but days late and not a single line of code is written. Hence, an engine that recommends projects catered to the developer’s specific skills based on semantic similarity.
 
+[Live Demo](https://project-recommender-zeta.vercel.app)
+
 
 
 https://github.com/user-attachments/assets/e6fdb2f6-a723-4042-ba74-e4dd295bcfda
